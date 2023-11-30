@@ -1,0 +1,76 @@
+body {
+    text-align: center;
+    font-size: 44px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url('elis/zelisb.gif');
+    color: white;
+    -webkit-text-stroke-width: 1.2px;
+    -webkit-text-stroke-color: black;
+}
+strong{
+    font-size: 99px;
+}
+h2 {
+    font-size: 44px;
+}
+.elisirl{
+    width: 160px;
+    height: 200px;
+}
+.elisbksr{
+    width: 200px;
+    height: 160px;
+}
+.elisp{
+    width: 200px;
+    height: 300px;
+}
+.elisc{
+    width: 350px;
+    height: 250px;
+}
+.elisk{
+    width: 350px;
+    height: 250px;
+}
+.elisa{
+    text-align: right;
+}
+.elisq{
+    width: 250px;
+    height: 350px;
+}
+.elisv{
+    width: 350px;
+    height: 200px;
+}
+a{
+    color: white;
+    -webkit-text-stroke-width: 1.2px;
+    -webkit-text-stroke-color: black;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+}
+.kim{
+    float: left !important;
+}
+.kir{
+    float: right !important;
+}
+

@@ -1,0 +1,60 @@
+body {
+    background-color: darkred;
+    color: goldenrod;
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+.kimp{
+    font-size: 50px;
+}
+.kmpgl{
+    height: 350px;
+    width: 600px;
+    float: left;
+}
+.kmpngl{
+    height: 350px;
+    width: 600px;
+    float: left;
+}
+.kobyp{
+    float: left !important;
+    height: 350px;
+    width: 300px;
+}
+.meme{
+    float: left;
+    height: 350px;
+    width: 250px;
+}
+.memep{
+    float: right;
+    width: 360px;
+    height: 340px;
+}
+.memep1{
+    text-align: center;
+    width: 650px;
+    height: 350px;
+}
+a{
+    text-align: right !important;
+    color: orange !important;
+    font-size: 36px;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
