@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Nunito&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Jost", sans-serif;
+	background-image: url("resources/bg.gif");
+    background-size: 100vh, 100vh;
+}
+
+a {text-decoration: none; color: white;}
+
+.gay-selector {
+    position: fixed;
+    left: 50%;
+    bottom: 20%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+
+.gay, .gay1, .gay2 {
+    padding: 10px;
+    border: 1px black solid;
+    margin: 10px;
+    transition: .2s;
+}
+
+.gay:hover, .gay1:hover, .gay2:hover {
+	padding: 15px;
+	transition: .2s;
+	bgc
+}
+
+.gay a:hover ~ .characters img {
+    opacity: 1;
+    transition: opacity 0.2s ease;
+}
+
+.characters img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -60%);
+    width: 500px;
+    height: 500px;
+    opacity: 0;
+    transition: opacity 0.2s ease; /* Add transition property for opacity */
+
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
