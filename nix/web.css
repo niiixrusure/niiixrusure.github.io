@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+
+
+body{
+    text-align: right;
+    font-size: 35px;
+    font-family: unbounded;
+    color: orange;
+}
+.idk{
+    font-size: 19px;
+}
+.bold{
+    color: orangered;
+    text-decoration: none;
+}
