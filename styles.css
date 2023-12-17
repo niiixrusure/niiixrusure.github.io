@@ -4,8 +4,12 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: "Jost", sans-serif;
-	background-image: url("resources/bg.gif");
-    background-size: 100vh, 100vh;
+	background-image: url("resources/backg.png");
+    background-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 a {text-decoration: none; color: white;}
