@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Geologica&family=Jost:wght@600&family=Nunito&family=Questrial&family=Wix+Madefor+Display&display=swap');
+
+body {
+    text-align: center;
+    font-family: Wix Madefor Display, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.gays {
+    font-family: Wix Madefor Display,sans-serif;
+    font-size: 25px;
+    margin-right: 25px;
+}
+.nix, .jhonny {
+    margin-right: 50px;
+}
+
+header {
+    display: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgrey;
+    border-radius: 15px;
+}
+
+section {
+    display:flexbox;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 20px;
+}
+.jk {
+    width: 20%;
+    height: 20%;
+}
+.jkvideo {
+    width: 20%;
+    height: 20%;
+}
+.jkvideoj {
+    width: 20%;
+    height: 20%;
+}
+.jkvideod {
+    width: 30%;
+    height: 30%;
+}
+.r34 {
+    background-color: lightgrey;
+    color: black;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.r34l {
+    font-size: 22px;
+}

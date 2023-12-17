@@ -2,6 +2,7 @@
 
 
 body{
+    background-color: black;
     text-align: right;
     font-size: 35px;
     font-family: unbounded;
@@ -11,11 +12,11 @@ body{
     font-size: 19px;
 }
 .bold{
-    color: #ff4500;
+    color: orangered;
     text-decoration: none;
 }
-.night {
-    font-size: 20px;
-    color: #000000;
+.day {
+    color: white;
     text-decoration: none;
+    font-size: 10px;
 }

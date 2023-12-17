@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Geologica&family=Jost:wght@600&family=Montserrat&family=Nunito&family=Questrial&family=Wix+Madefor+Display&display=swap');
+
+
+body {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
