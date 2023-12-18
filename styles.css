@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Nunito&display=swap');
 
 body {
-	margin: 0;
-	padding: 0;
-	font-family: "Jost", sans-serif;
-	background-image: url("resources/backg.png");
+    margin: 0;
+    padding: 0;
+    font-family: "Jost", sans-serif;
+    background-image: url("resources/backg.png");
     background-position: center;
     background-position: center;
     background-repeat: no-repeat;
@@ -22,22 +22,17 @@ a {text-decoration: none; color: white;}
     margin: 0 auto;
 }
 
-.gay, .gay1, .gay2 {
+.gay {
     padding: 10px;
     border: 1px black solid;
     margin: 10px;
     transition: .2s;
 }
 
-.gay:hover, .gay1:hover, .gay2:hover {
+.gay:hover {
 	padding: 15px;
 	transition: .2s;
 	bgc
-}
-
-.gay a:hover ~ .characters img {
-    opacity: 1;
-    transition: opacity 0.2s ease;
 }
 
 .characters img {
