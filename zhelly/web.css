@@ -1,13 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Geologica&family=Jost:wght@600&family=Montserrat&family=Nunito&family=Questrial&family=Wix+Madefor+Display&display=swap');
 
-
 body {
-    font-family: Montserrat, sans-serif;
-    font-size: 20px;
-    color: black;
-    background-color: white;
+	background-color: #313b31;
+	color: #c0cfbe;
+	font-family: "Montserrat", sans-serif;
+	font-size: 49px;
+	margin: 0;
+	padding: 0;
 }
+
 a {
-    color: black;
-    text-decoration: none;
+	color: #c0cfbe;
+	text-decoration: none;
 }
+
+.fancy {
+	position: absolute;	
+	top: 50%;
+	left: 50%;	
+	transform: translate(-50%,-50%);
+}
+
+.fancy > .letter {display: inline-block; transition: transform 0.3s ease;}
+.fancy:hover > .letter {transition-duration: 0.5s}
+
+.fancy:hover > .letter:nth-child(1) {transform: translate(-80%,60%) rotate(8deg);}
+.fancy:hover > .letter:nth-child(2) {transform: translate(-40%,20%) rotate(4deg);}
+.fancy:hover > .letter:nth-child(3) {transform: translate(-10%,60%) rotate(-6deg);}
+.fancy:hover > .letter:nth-child(4) {transform: translate(0%,8%) rotate(-8deg);}
+.fancy:hover > .letter:nth-child(5) {transform: translate(0%,-20%) rotate(-3deg);}
+.fancy:hover > .letter:nth-child(6) {transform: translate(0%,20%) rotate(-3deg);}
