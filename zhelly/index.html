@@ -4,7 +4,40 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>zh3lly</title>
-	<link rel="stylesheet" href="web.css">
+	<style>@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Geologica&family=Jost:wght@600&family=Montserrat&family=Nunito&family=Questrial&family=Wix+Madefor+Display&display=swap');
+
+body {
+	background-color: #313b31;
+	color: #c0cfbe;
+	font-family: "Montserrat", sans-serif;
+	font-size: 49px;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #c0cfbe;
+	text-decoration: none;
+}
+
+.fancy {
+	position: absolute;	
+	top: 50%;
+	left: 50%;	
+	transform: translate(-50%,-50%);
+}
+
+.fancy > .letter {display: inline-block; transition: transform 0.3s ease;}
+.fancy:hover > .letter {transition-duration: 0.5s; color: #3a4738}
+.fancy:hover + body {background-color: #000;}
+
+.fancy:hover > .letter:nth-child(1) {transform: translate(-80%,60%) rotate(8deg);}
+.fancy:hover > .letter:nth-child(2) {transform: translate(-40%,20%) rotate(4deg);}
+.fancy:hover > .letter:nth-child(3) {transform: translate(-10%,60%) rotate(-6deg);}
+.fancy:hover > .letter:nth-child(4) {transform: translate(0%,8%) rotate(-8deg);}
+.fancy:hover > .letter:nth-child(5) {transform: translate(0%,-20%) rotate(-3deg);}
+.fancy:hover > .letter:nth-child(6) {transform: translate(0%,20%) rotate(-3deg);}
+</style>
 </head>
 <body>
 	<a id="github-link" href="https://github.com/zhelly-dev" target="_blank" class="fancy">zh3lly</div>
