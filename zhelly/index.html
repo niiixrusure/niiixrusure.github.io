@@ -3,60 +3,147 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>zh3lly</title>
-	<style>@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Geologica&family=Jost:wght@600&family=Montserrat&family=Nunito&family=Questrial&family=Wix+Madefor+Display&display=swap');
+	<title>Document</title>
+	<style>
+		:root {
+  --border: rgb(3, 169, 244);
+  
+  --g1: rgb(98, 0, 234);
+  --g2: rgb(236, 64, 122);
+  --g3: rgb(253, 216, 53);
+}
 
 body {
-	background-color: #313b31;
-	color: #c0cfbe;
-	font-family: "Montserrat", sans-serif;
-	font-size: 49px;
-	margin: 0;
-	padding: 0;
+  background-color: rgb(10, 10, 10);
+  display: grid;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  place-items: center;
 }
 
-a {
-	color: #c0cfbe;
-	text-decoration: none;
+.card {
+  aspect-ratio: 1 / 1.6;
+  border: 0.5vmin solid var(--border);
+  cursor: pointer;
+  position: relative;
+  width: 56vmin;
 }
 
-.fancy {
-	position: absolute;	
-	top: 50%;
-	left: 50%;	
-	transform: translate(-50%,-50%);
+.card:hover:before {
+  background-position: 100% 100%;
+  transform: scale(1.08, 1.03);
 }
 
-.fancy > .letter {display: inline-block; transition: transform 0.3s ease;}
-.fancy:hover > .letter {transition-duration: 0.5s; color: #3a4738}
-.fancy:hover + body {background-color: #000;}
+.card:hover > .card-content {
+  background-position: -10% 0%;
+}
 
-.fancy:hover > .letter:nth-child(1) {transform: translate(-80%,60%) rotate(8deg);}
-.fancy:hover > .letter:nth-child(2) {transform: translate(-40%,20%) rotate(4deg);}
-.fancy:hover > .letter:nth-child(3) {transform: translate(-10%,60%) rotate(-6deg);}
-.fancy:hover > .letter:nth-child(4) {transform: translate(0%,8%) rotate(-8deg);}
-.fancy:hover > .letter:nth-child(5) {transform: translate(0%,-20%) rotate(-3deg);}
-.fancy:hover > .letter:nth-child(6) {transform: translate(0%,20%) rotate(-3deg);}
-</style>
+.card:hover > .card-icon {
+  color: white; 
+}
+
+.card:hover > .card-content > .card-subtitle > .card-subtitle-word {  
+  opacity: 1;
+  transform: translateY(0%);
+  transition: opacity 0ms, transform 200ms cubic-bezier(.90, .06, .15, .90);
+}
+
+.card:before {
+  background: linear-gradient(
+    130deg, 
+    transparent 0% 33%, 
+    var(--g1) 66%, 
+    var(--g2) 83.5%, 
+    var(--g3) 100%
+  );
+  background-position: 0% 0%;
+  background-size: 300% 300%;
+  content: "";
+  height: 100%;
+  left: 0px;
+  pointer-events: none;
+  position: absolute;
+  top: 0px;
+  transition: background-position 350ms ease, transform 350ms ease;
+  width: 100%;
+  z-index: 1;
+}
+
+.card-content {
+  background-image: radial-gradient(
+    rgba(255, 255, 255, 0.2) 8%, 
+    transparent 8%
+  );
+  background-position: 0% 0%;
+  background-size: 5vmin 5vmin;
+  height: calc(100% - 10vmin);
+  padding: 5vmin;
+  position: relative;
+  transition: background-position 350ms ease;
+  width: calc(100% - 10vmin);
+  z-index: 2;
+}
+
+.card-title,
+.card-subtitle {
+  color: white;
+  font-family: "Anek Latin", sans-serif;
+  font-weight: 400;
+  margin: 0px;
+}
+
+.card-title {
+  font-size: 6vmin;
+}
+
+.card-subtitle {
+  font-size: 3vmin;
+  margin-top: 2vmin;
+}
+
+.card-subtitle-word {
+  display: inline-block;
+  margin: 0vmin 0.3vmin;
+  opacity: 0;
+  position: relative;  
+  transform: translateY(40%);
+  transition: none;
+}
+
+.card-icon {
+  bottom: 0px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 7vmin;
+  left: 0px;
+  margin: 5vmin;
+  position: absolute;
+  transition: color 250ms ease;
+  z-index: 2;
+}
+	</style>
 </head>
 <body>
-	<a id="github-link" href="https://github.com/zhelly-dev" target="_blank" class="fancy">zh3lly</div>
+	<div class="card">
+  		<div class="card-content">
+    		<h3 class="card-title">zh3lly implements Twitch</h3>
+    		<h4 class="card-subtitle"></h4>
+  		</div>
+	</div>
+
 	<script>
-		const enhance = id => {
-			const element = document.getElementById(id),
-				text = element.innerText.split("");
-
-			element.innerText = "";
-
-			text.forEach(letter => {
-				const span = document.createElement("span");
-				span.className = "letter";
-				span.innerText = letter;
-				element.appendChild(span);
-			});
+		const subtitle = document.getElementsByClassName("card-subtitle")[0];
+		const createWord = (text, index) => {
+	  		const word = document.createElement("span");
+ 	 		word.innerHTML = `${text} `;
+	  		word.classList.add("card-subtitle-word");
+	  		word.style.transitionDelay = `${index * 40}ms`;
+	  		return word;
 		}
 
-		enhance("github-link");
+		const addWord = (text, index) => subtitle.appendChild(createWord(text, index));
+		const createSubtitle = text => text.split(" ").map(addWord);
+		createSubtitle("zh3lly is shit.");
 	</script>
 </body>
 </html>
