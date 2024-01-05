@@ -11,7 +11,7 @@
 }
 @font-face {
 	font-family: kamerik-3d;
-	src: url(fonts/kamerik205-heavy.woff2);
+	src: url(../fonts/kamerik205-heavy.woff2);
 	font-weight: 900;
 }
 body {
