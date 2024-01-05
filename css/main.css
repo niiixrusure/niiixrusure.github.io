@@ -59,6 +59,7 @@ body {
 	transform: translateZ(380px);
 }
 .hero-content {
+	font-family: kamerik-3d, sans-serif;
 	font-size: calc(var(--index) * 2.9);
 	text-align: center;
 	text-transform: uppercase;
