@@ -65,7 +65,7 @@ body {
 	letter-spacing: calc(var(--index) * -.15);
 	line-height: 1.35em;
 	margin-top: calc(var(--index) * 5.5);
-	font-family: Inter, sans-serif;
+	font-family: 'Inter', sans-serif;
 }
 .hero-content span {
 	display: block;
