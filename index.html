@@ -1,47 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<style type="text/css">
+		a:link, a:visited { color:#ffffff; }
+		</style>
 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Choose your GAY</title>
-	<link rel="stylesheet" href="styles.css">
-	<style>
-		/* Add this style to highlight the hovered .gay element */
-		.gay:hover {
-			background-color: lightgray;
-		}
-	</style>
+	<title>Document</title>
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/app.js" defer></script>
+	<script src="libs/rain.js" defer></script>
+	<link rel="stylesheet" href="css/bimbim.css">
 </head>
 <body>
-	<div class="characters">
-		<img src="resources/elis.jpg" id="elisImage">
-		<img src="resources/kimpygl.png" id="kimpyImage">
-		<img src="resources/ks.png" id="ksImage">
-		<img src="resources/nix.jpg" id="nixImage">
-		<img src="resources/zhelly.gif">
-		<img src="resources/download (1).jpg">
 
+	<div class="author">
+		<span>MADE BY: ILYUSHA, NIXRUSURE, ZH3LLY <br><br></span>
 	</div>
-	<div class="gay-selector">
-		<a href="elis/index.html" class="gay" onmouseover="changeOpacity(0)" onmouseout="resetOpacity(0)">ELIS</a>
-		<a href="kimpy/index.html" class="gay" onmouseover="changeOpacity(1)" onmouseout="resetOpacity(1)">KIMPY</a>
-		<a href="ks/index.html" class="gay" onmouseover="changeOpacity(2)" onmouseout="resetOpacity(2)">KIRILL</a>
-		<a href="nix/index.html" class="gay" onmouseover="changeOpacity(3)" onmouseout="resetOpacity(3)">NIX</a>
-		<a href="zhelly/index.html" class="gay" onmouseover="changeOpacity(4)" onmouseout="resetOpacity(4)">ZHELLY</a>
-		<a href="jhonny/index.html" class="gay" onmouseover="changeOpacity(5)" onmouseout="resetOpacity(5)">JHONNY</a>
-	</div>
+	<a href="https://www.youtube.com/@python_is_tresh" class="bambam"><span>Поддержать матриц на питоне</span></a>
 
-	<script>
-		function changeOpacity(index) {
-			var images = document.querySelectorAll('.characters img');
-			images[index].style.opacity = 1;
-			images[index].style.transition = 0.2;
-		}
+	<!-- bim bim bam bam -->
+	<section class="layers">
+		<div class="layers__container">
+			<div class="layers__item layer-1" style="background-image: url(img/layer-1.jpg);"></div>
+			<div class="layers__item layer-2" style="background-image: url(img/layer-2.png);"></div>
+			<div class="layers__item layer-3">
+				<div class="hero-content">
+					<h1>DOOM  69<span></span></h1>
+					<div class="hero-content__p">Нажми на кнопку внизу, для просмотра.</div>
+					<button class="button-start"><a href="ks/index.html">Кирилл Сухарев</a></button>
+					<button class="button-start"><a href="kimpy/index.html">kimpy</a></button>
+					<button class="button-start"><a href="nix/index.html">nix</a></button>
+					<button class="button-start"><a href="zhelly/index.html">zhelly</a></button>
+					<button class="button-start"><a href="jhonny/index.html">jhonny</a></button>
+					<button class="button-start"><a href="elis/index.html">elis</a></button>
+					<button class="button-start"><a href="2/Илья страница/ready-html/index.html">Илюша</a></button>
+					<span><button class="button-start11"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"style="text-decoration: none; "><p> нажимай! ну давай же жми !</a></button></span></h1> 
+				</div>
+			</div>
+			<div class="layers__item layer-4">
+				<canvas class="rain"></canvas>
+			</div>
+			<div class="layers__item layer-5" style="background-image: url(img/layer-5.png);"></div>
+			<div class="layers__item layer-6" style="background-image: url(img/layer-6.png);"></div>
+		</div>
+	</section>
 
-		function resetOpacity(index) {
-			var images = document.querySelectorAll('.characters img');
-			images[index].style.opacity = 0;
-		}
-	</script>
 </body>
 </html>

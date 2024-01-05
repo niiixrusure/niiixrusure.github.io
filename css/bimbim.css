@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+.author {
+	font-family: 'Inter', sans-serif;
+	position: absolute;
+	z-index: 2;
+	opacity: .5;
+	left: 50%;
+	transform: translate(-50%, 20%);
+	margin: 10px;
+	text-align: center;
+}
+
+.bambam {
+	position: absolute;
+	font-family: "Inter", sans-serif;
+	z-index: 2;
+	opacity: .5;
+	left: 50%;
+	transform: translate(-50%, 160%);
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10px;
+	background-color: #666;
+	padding: 5px;
+	color: white;
+}
