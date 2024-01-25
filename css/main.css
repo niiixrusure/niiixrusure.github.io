@@ -11,11 +11,11 @@
 }
 @font-face {
     font-family: kamerik-3d;
-    src: url('../nix/fonts/involvo/Involvo-Regular.ttf')
+    src: url('../nix/fonts/involve/Involve-Regular.ttf')
 }
 @font-face{
 	font-family: involvo;
-	src: url('../nix/fonts/involvo/Involvo-Regular.ttf')
+	src: url('../nix/fonts/involve/Involve-Regular.ttf')
 }
 body {
 	background-color: #000;
