@@ -1,7 +1,12 @@
   @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
+}
+@font-face {
+    font-family: main;
+    src: (../fonts/Involve-SemiBold.ttf);
+    font-weight: 900;
+}
 .author {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'main', sans-serif;
 	position: absolute;
 	z-index: 2;
 	opacity: .5;
@@ -13,7 +18,7 @@
 
 .bambam {
 	position: absolute;
-	font-family: "Montserrat", sans-serif;
+	font-family: "main", sans-serif;
 	z-index: 2;
 	opacity: .5;
 	left: 50%;
