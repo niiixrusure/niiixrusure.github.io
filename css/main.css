@@ -10,20 +10,9 @@
 	--transition: 1.5s cubic-bezier(.05, .5, 0, 1);
 }
 @font-face {
-    font-family: kamerik-3d;
-    src: (../fonts/KiyosunaSans-B-1.0.1.oft2);
-    font-weight: 900;
-}
-@font-face {
-    font-family: main;
-    src: (../fonts/Involve-SemiBold.ttf);
-    font-weight: 900;
-}
-}
-@font-face {
-    font-family: back;
-    src: (../fonts/Involve-Regular.ttf);
-    font-weight: 900;
+	font-family: kamerik-3d;
+	src: url(../fonts/kamerik205-heavy.woff2);
+	font-weight: 900;
 }
 body {
 	background-color: #000;
@@ -70,7 +59,6 @@ body {
 	transform: translateZ(380px);
 }
 .hero-content {
-	font-family: kamerik-3d, sans-serif;
 	font-size: calc(var(--index) * 2.9);
 	text-align: center;
 	text-transform: uppercase;
@@ -83,13 +71,13 @@ body {
 }
 .hero-content__p {
 	text-transform: none;
-	font-family: back;
+	font-family: "Inter";
 	letter-spacing: normal;
 	font-size: calc(var(--index) * .73);
 	line-height: 3;
 }
 .button-start {
-	font-family: main;
+	font-family: Arial;
 	font-weight: 600;
 	text-transform: uppercase;
 	font-size: calc(var(--index) * .71);
@@ -108,7 +96,7 @@ body {
 }
 
 .button-start11 {
-	font-family: main;
+	font-family: Arial;
 	font-weight: 300;
 	text-transform: uppercase;
 	font-size: calc(var(--index) * .71);
@@ -121,7 +109,4 @@ body {
 	outline: none;
 	cursor: pointer;
 	margin-top: calc(var(--index) * 2.5);
-}
-a{
-	text-decoration: none;
 }
