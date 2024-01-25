@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
 * {
 	margin: 0;
@@ -14,16 +14,11 @@
 	src: url(../fonts/Involve-SemiBold.ttf);
 	font-weight: 900;
 }
-}
-@font-face {
-	font-family: butb;
-	src: url(../fonts/KiyosunaSans-B-1.0.1.otf);
-	font-weight: 900;
-}
+
 body {
 	background-color: #000;
 	color: #fff;
-	font-family: butb;
+	font-family: Montserrat;
 }
 .layers {
 	perspective: 1000px;
