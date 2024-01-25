@@ -104,7 +104,7 @@ body {
 	letter-spacing: -.02vw;
 	padding: calc(var(--index) * .7) calc(var(--index) * 1.25);
 	background-color: rgba(255, 166, 0, 1);
-	filter: drop-shadow(16px 16px 20px rgba(255, 166, 0, 1))
+	filter: blur(10px);
 	color: #ffffff;
 	border-radius: 10em;
 	border: rgb(255 255 255 / .4) 0px solid;
