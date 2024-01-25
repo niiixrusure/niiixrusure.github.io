@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+se@import url('https://s.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
 
 * {
 	margin: 0;
@@ -9,21 +9,21 @@
 	--index: calc(1vw + 1vh);
 	--transition: 1.5s cubic-bezier(.05, .5, 0, 1);
 }
-@font-face {
-	font-family: ease;
-	src: url(../fonts/KiyosunaSans-B-1.0.1.woff2);
-	font-weight: 900;
+@-face {
+	-family: ease;
+	src: url(../s/KiyosunaSans-B-1.0.1.woff2);
+	-weight: 900;
 }
 }
-@font-face {
-	font-family: mainA;
-	src: (../fonts/Involve-SemiBold.ttf);
-	font-weight: 900;
+@-face {
+	-family: mainA;
+	src: (../s/Involve-SemiBold.ttf);
+	-weight: 900;
 }
 body {
 	background-color: #000;
 	color: #fff;
-	font-family: mainA;
+	font-family: ease;
 }
 .layers {
 	perspective: 1000px;
@@ -65,7 +65,7 @@ body {
 	transform: translateZ(380px);
 }
 .hero-content {
-	font-size: calc(var(--index) * 2.9);
+	-size: calc(var(--index) * 2.9);
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: calc(var(--index) * -.15);
@@ -77,16 +77,16 @@ body {
 }
 .hero-content__p {
 	text-transform: none;
-	font-family: "Montserrat";
+	-family: "Montserrat";
 	letter-spacing: normal;
-	font-size: calc(var(--index) * .73);
+	-size: calc(var(--index) * .73);
 	line-height: 3;
 }
 .button-start {
-	font-family: ease;
-	font-weight: 600;
+	-family: ease;
+	-weight: 600;
 	text-transform: uppercase;
-	font-size: calc(var(--index) * .71);
+	-size: calc(var(--index) * .71);
 	letter-spacing: -.02vw;
 	padding: calc(var(--index) * .7) calc(var(--index) * 1.25);
 	background-color: transparent;
@@ -102,10 +102,10 @@ body {
 }
 
 .button-start11 {
-	font-family: ease;
-	font-weight: 300;
+	-family: ease;
+	-weight: 300;
 	text-transform: uppercase;
-	font-size: calc(var(--index) * .71);
+	-size: calc(var(--index) * .71);
 	letter-spacing: -.02vw;
 	padding: calc(var(--index) * .7) calc(var(--index) * 1.25);
 	background-color: rgba(19, 85, 19, 0.226);
