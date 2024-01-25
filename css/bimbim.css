@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@font-face{
+	font-family: involvo;
+	src: url('../nix/font/involvo/Involvo-Regular.ttf')
 
 .author {
-	font-family: 'Inter', sans-serif;
+	font-family: involvo, sans-serif;
 	position: absolute;
 	z-index: 2;
 	opacity: .5;
@@ -13,7 +15,7 @@
 
 .bambam {
 	position: absolute;
-	font-family: "Inter", sans-serif;
+	font-family: involvo, sans-serif;
 	z-index: 2;
 	opacity: .5;
 	left: 50%;
