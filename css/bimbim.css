@@ -24,4 +24,5 @@
 	background-color: #666;
 	padding: 5px;
 	color: white;
+	filter: blur(5px);
 }
