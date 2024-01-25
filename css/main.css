@@ -17,13 +17,13 @@
 }
 @font-face {
 	font-family: butb;
-	src: url(../fonts/KiyosunaSans-B-1.0.1.woff2);
+	src: url(../fonts/KiyosunaSans-B-1.0.1.otf);
 	font-weight: 900;
 }
 body {
 	background-color: #000;
 	color: #fff;
-	font-family: buta;
+	font-family: butb;
 }
 .layers {
 	perspective: 1000px;
