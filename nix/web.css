@@ -128,7 +128,7 @@ a{
   display: inline-block;
   vertical-align: middle;
   content: "";
-  top: 19px;
+  top: 18px;
   height: 13px; /* Decreased height by 2 times */
   width: 13px; /* Decreased height by 2 times */
   left: 2px; /* Adjusted position */
