@@ -9,7 +9,7 @@
 	--index: calc(1vw + 1vh);
 	--transition: 1.5s cubic-bezier(.05, .5, 0, 1);
 }
-@-face {
+@font-face {
 	-family: kamerik-3d;
 	src: (../fonts/Involve-Bold.ttf);
 	font-weight: 900;
