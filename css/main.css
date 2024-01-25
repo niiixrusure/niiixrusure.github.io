@@ -14,6 +14,17 @@
     src: url(../fonts/kamerik205-heavy.woff2);
     font-weight: 900;
 }
+@font-face {
+    font-family: main;
+    src: url(../nix/fonts/involve/Involve-SemiBold.ttf);
+    font-weight: 900;
+}
+}
+@font-face {
+    font-family: back;
+    src: url(../nix/fonts/involve/Involve-Regular.ttf);
+    font-weight: 900;
+}
 body {
 	background-color: #000;
 	color: #fff;
@@ -72,13 +83,13 @@ body {
 }
 .hero-content__p {
 	text-transform: none;
-	font-family: "Inter";
+	font-family: back;
 	letter-spacing: normal;
 	font-size: calc(var(--index) * .73);
 	line-height: 3;
 }
 .button-start {
-	font-family: Arial;
+	font-family: main;
 	font-weight: 600;
 	text-transform: uppercase;
 	font-size: calc(var(--index) * .71);
@@ -97,7 +108,7 @@ body {
 }
 
 .button-start11 {
-	font-family: Arial;
+	font-family: main;
 	font-weight: 300;
 	text-transform: uppercase;
 	font-size: calc(var(--index) * .71);
