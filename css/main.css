@@ -16,13 +16,13 @@
 }
 @font-face {
     font-family: main;
-    src: url(../nix/fonts/involve/Involve-SemiBold.ttf);
+    src: (../fonts/Involve-SemiBold.ttf);
     font-weight: 900;
 }
 }
 @font-face {
     font-family: back;
-    src: url(../nix/fonts/involve/Involve-Regular.ttf);
+    src: (../fonts/Involve-Regular.ttf);
     font-weight: 900;
 }
 body {
