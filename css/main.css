@@ -41,7 +41,7 @@ body {
 	justify-content: center;
 }
 .layer-1 {
-	transform: translateZ(-55px) scale(1.06);
+	transform: translateZ(-55px) scale(1.75);
 }
 .layer-2 {
 	transform: translateZ(80px) scale(.88);
