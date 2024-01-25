@@ -42,6 +42,7 @@ body {
 }
 .layer-1 {
 	transform: translateZ(-55px) scale(1.75);
+	top: -30px;
 }
 .layer-2 {
 	transform: translateZ(80px) scale(.88);
