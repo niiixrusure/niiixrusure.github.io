@@ -21,7 +21,7 @@
 }
 }
 @font-face {
-    font-family: back;
+    font-family: resb;
     src: (../fonts/Involve-Regular.ttf);
     font-weight: 900;
 }
@@ -82,8 +82,8 @@ body {
 	display: block;
 }
 .hero-content__p {
+	font-family: resb;
 	text-transform: none;
-	font-family: back;
 	letter-spacing: normal;
 	font-size: calc(var(--index) * .73);
 	line-height: 3;
