@@ -42,7 +42,7 @@ body {
 	justify-content: center;
 }
 .layer-1 {
-	transform: translateZ(-55px) scale(1.06);
+	transform: translateY(-15px) translateZ(-55px) scale(1.7);
 }
 .layer-2 {
 	transform: translateZ(80px) scale(.88);
@@ -103,7 +103,7 @@ body {
 	font-size: calc(var(--index) * .71);
 	letter-spacing: -.02vw;
 	padding: calc(var(--index) * .7) calc(var(--index) * 1.25);
-	background-color: rgba(19, 85, 19, 0.226);
+	background-color: #ffa600;
 	color: #ffffff;
 	border-radius: 10em;
 	border: rgb(255 255 255 / .4) 0px solid;
