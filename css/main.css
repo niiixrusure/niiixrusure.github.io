@@ -10,7 +10,7 @@
 	--transition: 1.5s cubic-bezier(.05, .5, 0, 1);
 }
 @font-face {
-	-family: kamerik-3d;
+	font-family: kamerik-3d;
 	src: (../fonts/Involve-Bold.ttf);
 	font-weight: 900;
 }
