@@ -11,13 +11,13 @@
 }
 @font-face {
     font-family: mainfont;
-    src: url(../fonts/involve/involve-Bold.ttf);
+    src: url(../nix/fonts/involve/involve-Bold.ttf);
     font-weight: 900;
 }
 }
 @font-face1 {
     font-family: buttonfont;
-    src: url(../fonts/involve/involve-Regular.ttf);
+    src: url(../nix/fonts/involve/involve-Regular.ttf);
     font-weight: 900;
 }
 body {
