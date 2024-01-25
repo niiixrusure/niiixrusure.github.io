@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .author {
-	font-family: 'Inter', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	position: absolute;
 	z-index: 2;
 	opacity: .5;
@@ -13,7 +13,7 @@
 
 .bambam {
 	position: absolute;
-	font-family: "Inter", sans-serif;
+	font-family: "Montserrat", sans-serif;
 	z-index: 2;
 	opacity: .5;
 	left: 50%;
