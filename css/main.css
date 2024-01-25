@@ -77,13 +77,13 @@ body {
 }
 .hero-content__p {
 	text-transform: none;
-	font-family: "Inter";
+	font-family: involvo;
 	letter-spacing: normal;
 	font-size: calc(var(--index) * .73);
 	line-height: 3;
 }
 .button-start {
-	font-family: Arial;
+	font-family: involvo;
 	font-weight: 600;
 	text-transform: uppercase;
 	font-size: calc(var(--index) * .71);
@@ -102,7 +102,7 @@ body {
 }
 
 .button-start11 {
-	font-family: Arial;
+	font-family: involvo;
 	font-weight: 300;
 	text-transform: uppercase;
 	font-size: calc(var(--index) * .71);
