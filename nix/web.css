@@ -10,7 +10,7 @@
 }
 @font-face {
   font-family: golos;
-  src: url(fonts/golos/GolosText_Regular/GolosText_Regular.ttf);
+  src: url('fonts/golos/GolosText_Regular/GolosText_Regular.ttf');
 }
 
 body{
