@@ -1,4 +1,4 @@
-@import url('https://s.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
 * {
 	margin: 0;
@@ -11,19 +11,7 @@
 }
 @font-face {
 	font-family: kamerik-3d;
-	src: (../fonts/Involve-Bold.ttf);
-	font-weight: 900;
-}
-}
-@font-face {
-	font-family: buta;
-	src: (../fonts/Involve-SemiBold.ttf);
-	font-weight: 900;
-}
-}
-@font-face {
-	font-family: butb;
-	src: url(../fonts/KiyosunaSans-B-1.0.1.woff2);
+	src: url(../fonts/kamerik205-heavy.woff2);
 	font-weight: 900;
 }
 body {
@@ -71,7 +59,7 @@ body {
 	transform: translateZ(380px);
 }
 .hero-content {
-	-size: calc(var(--index) * 2.9);
+	font-size: calc(var(--index) * 2.9);
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: calc(var(--index) * -.15);
@@ -83,16 +71,16 @@ body {
 }
 .hero-content__p {
 	text-transform: none;
-	-family: "Montserrat";
+	font-family: "Inter";
 	letter-spacing: normal;
-	-size: calc(var(--index) * .73);
+	font-size: calc(var(--index) * .73);
 	line-height: 3;
 }
 .button-start {
-	-family: buta;
-	-weight: 600;
+	font-family: Arial;
+	font-weight: 600;
 	text-transform: uppercase;
-	-size: calc(var(--index) * .71);
+	font-size: calc(var(--index) * .71);
 	letter-spacing: -.02vw;
 	padding: calc(var(--index) * .7) calc(var(--index) * 1.25);
 	background-color: transparent;
@@ -108,10 +96,10 @@ body {
 }
 
 .button-start11 {
-	-family: buta;
-	-weight: 300;
+	font-family: Arial;
+	font-weight: 300;
 	text-transform: uppercase;
-	-size: calc(var(--index) * .71);
+	font-size: calc(var(--index) * .71);
 	letter-spacing: -.02vw;
 	padding: calc(var(--index) * .7) calc(var(--index) * 1.25);
 	background-color: rgba(19, 85, 19, 0.226);
