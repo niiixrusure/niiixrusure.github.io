@@ -11,7 +11,7 @@
 }
 @font-face {
     font-family: kamerik-3d;
-    src: url(../fonts/KiyosunaSans-B-1.0.1.woff2);
+    src: (../fonts/KiyosunaSans-B-1.0.1.woff2);
     font-weight: 900;
 }
 @font-face {
@@ -82,8 +82,8 @@ body {
 	display: block;
 }
 .hero-content__p {
-	font-family: back;
 	text-transform: none;
+	font-family: back;
 	letter-spacing: normal;
 	font-size: calc(var(--index) * .73);
 	line-height: 3;
