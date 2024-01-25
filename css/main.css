@@ -83,7 +83,7 @@ body {
 	line-height: 3;
 }
 .button-start {
-	font-family: "butb";
+	font-family: buta;
 	font-weight: 600;
 	text-transform: uppercase;
 	font-size: calc(var(--index) * .71);
@@ -102,7 +102,7 @@ body {
 }
 
 .button-start11 {
-	font-family: "butb";
+	font-family: buta;
 	font-weight: 300;
 	text-transform: uppercase;
 	font-size: calc(var(--index) * .71);
