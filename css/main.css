@@ -21,7 +21,7 @@
 body {
 	background-color: #000;
 	color: #fff;
-	font-family: mainfont;
+	font-family: mainfont, sans-serif;
 }
 .layers {
 	perspective: 1000px;
@@ -82,7 +82,7 @@ body {
 	line-height: 3;
 }
 .button-start {
-	font-family: buttonfont;
+	font-family: buttonfont, sans-serif;
 	font-weight: 600;
 	text-transform: uppercase;
 	font-size: calc(var(--index) * .71);
@@ -101,7 +101,7 @@ body {
 }
 
 .button-start11 {
-	font-family: buttonfont;
+	font-family: buttonfont, sans-serif;
 	font-weight: 300;
 	text-transform: uppercase;
 	font-size: calc(var(--index) * .71);
