@@ -10,7 +10,7 @@
 	--transition: 1.5s cubic-bezier(.05, .5, 0, 1);
 }
 @font-face {
-	font-family: kamerik-3d;
+	font-family: ease;
 	src: url(../fonts/KiyosunaSans-B-1.0.1.woff2);
 	font-weight: 900;
 }
@@ -23,7 +23,7 @@
 body {
 	background-color: #000;
 	color: #fff;
-	font-family: kamerik-3d;
+	font-family: mainA;
 }
 .layers {
 	perspective: 1000px;
@@ -83,7 +83,7 @@ body {
 	line-height: 3;
 }
 .button-start {
-	font-family: mainA;
+	font-family: ease;
 	font-weight: 600;
 	text-transform: uppercase;
 	font-size: calc(var(--index) * .71);
@@ -102,7 +102,7 @@ body {
 }
 
 .button-start11 {
-	font-family: MainA;
+	font-family: ease;
 	font-weight: 300;
 	text-transform: uppercase;
 	font-size: calc(var(--index) * .71);
