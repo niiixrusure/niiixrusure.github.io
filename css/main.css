@@ -17,7 +17,7 @@
 }
 @font-face {
 	font-family: mainA;
-	src: url(../fonts/Involve-SemiBold.ttf);
+	src: (../fonts/Involve-SemiBold.ttf);
 	font-weight: 900;
 }
 body {
