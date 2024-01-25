@@ -71,7 +71,7 @@ body {
 	transform: translateZ(380px);
 }
 .hero-content {
-	font-size: calc(var(--index) * 2.9);
+	-size: calc(var(--index) * 2.9);
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: calc(var(--index) * -.15);
