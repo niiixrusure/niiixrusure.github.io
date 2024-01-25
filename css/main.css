@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
 * {
 	margin: 0;
@@ -9,14 +10,14 @@
 	--transition: 1.5s cubic-bezier(.05, .5, 0, 1);
 }
 @font-face {
-    font-family: mainfont;
-    src: url('../nix/fonts/involve/involve-SemiBold.ttf') !important;
+    font-family: kamerik-3d;
+    src: url(../fonts/kamerik205-heavy.woff2);
+    font-weight: 900;
 }
-
 body {
 	background-color: #000;
 	color: #fff;
-	font-family: mainfont;
+	font-family: kamerik-3d;
 }
 .layers {
 	perspective: 1000px;
@@ -58,7 +59,7 @@ body {
 	transform: translateZ(380px);
 }
 .hero-content {
-	font-family: mainfont;
+	font-family: kamerik-3d, sans-serif;
 	font-size: calc(var(--index) * 2.9);
 	text-align: center;
 	text-transform: uppercase;
@@ -71,13 +72,13 @@ body {
 }
 .hero-content__p {
 	text-transform: none;
-	font-family: "Montserrat";
+	font-family: "Inter";
 	letter-spacing: normal;
 	font-size: calc(var(--index) * .73);
 	line-height: 3;
 }
 .button-start {
-	font-family: mainfont;
+	font-family: Arial;
 	font-weight: 600;
 	text-transform: uppercase;
 	font-size: calc(var(--index) * .71);
@@ -96,7 +97,7 @@ body {
 }
 
 .button-start11 {
-	font-family: mainfont;
+	font-family: Arial;
 	font-weight: 300;
 	text-transform: uppercase;
 	font-size: calc(var(--index) * .71);
