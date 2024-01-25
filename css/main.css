@@ -11,7 +11,7 @@
 }
 @font-face {
     font-family: kamerik-3d;
-    src: url(../fonts/kamerik205-heavy.woff2);
+    src: url(../fonts/KiyosunaSans-B-1.0.1.woff2);
     font-weight: 900;
 }
 @font-face {
@@ -21,7 +21,7 @@
 }
 }
 @font-face {
-    font-family: resb;
+    font-family: back;
     src: (../fonts/Involve-Regular.ttf);
     font-weight: 900;
 }
@@ -82,7 +82,7 @@ body {
 	display: block;
 }
 .hero-content__p {
-	font-family: resb;
+	font-family: back;
 	text-transform: none;
 	letter-spacing: normal;
 	font-size: calc(var(--index) * .73);
