@@ -11,12 +11,12 @@
 }
 @font-face {
     font-family: mainfont;
-    src: url(../nix/fonts/involve/involve-Bold.ttf);
+    src: url('../nix/fonts/involve/involve-Bold.ttf');
 }
 }
 @font-face_a {
     font-family: buttonfont;
-    src: url(../nix/fonts/involve/involve-Regular.ttf);
+    src: url('../nix/fonts/involve/involve-Regular.ttf');
 }
 body {
 	background-color: #000;
