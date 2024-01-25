@@ -10,14 +10,20 @@
 	--transition: 1.5s cubic-bezier(.05, .5, 0, 1);
 }
 @font-face {
-	font-family: kamerik-3d;
-	src: url(../fonts/kamerik205-heavy.woff2);
+	font-family: buta;
+	src: url(../fonts/Involve-SemiBold.ttf);
+	font-weight: 900;
+}
+}
+@font-face {
+	font-family: butb;
+	src: url(../fonts/KiyosunaSans-B-1.0.1.woff2);
 	font-weight: 900;
 }
 body {
 	background-color: #000;
 	color: #fff;
-	font-family: kamerik-3d;
+	font-family: buta;
 }
 .layers {
 	perspective: 1000px;
@@ -71,13 +77,13 @@ body {
 }
 .hero-content__p {
 	text-transform: none;
-	font-family: "Inter";
+	font-family: "buta";
 	letter-spacing: normal;
 	font-size: calc(var(--index) * .73);
 	line-height: 3;
 }
 .button-start {
-	font-family: Arial;
+	font-family: butb;
 	font-weight: 600;
 	text-transform: uppercase;
 	font-size: calc(var(--index) * .71);
@@ -96,7 +102,7 @@ body {
 }
 
 .button-start11 {
-	font-family: Arial;
+	font-family: butb;
 	font-weight: 300;
 	text-transform: uppercase;
 	font-size: calc(var(--index) * .71);
