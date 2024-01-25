@@ -9,10 +9,6 @@
 	--index: calc(1vw + 1vh);
 	--transition: 1.5s cubic-bezier(.05, .5, 0, 1);
 }
-@font-face {
-    font-family: kamerik-3d;
-    src: url('../nix/fonts/involve/Involve-Regular.ttf')
-}
 @font-face{
 	font-family: involvo;
 	src: url('../nix/fonts/involve/Involve-Regular.ttf')
@@ -20,7 +16,7 @@
 body {
 	background-color: #000;
 	color: #fff;
-	font-family: kamerik-3d;
+	font-family: involvo;
 }
 .layers {
 	perspective: 1000px;
@@ -64,7 +60,7 @@ body {
 	transform: translateZ(380px);
 }
 .hero-content {
-	font-family: kamerik-3d, sans-serif;
+	font-family: involvo, sans-serif;
 	font-size: calc(var(--index) * 2.9);
 	text-align: center;
 	text-transform: uppercase;
