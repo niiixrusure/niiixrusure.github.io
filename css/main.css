@@ -13,11 +13,7 @@
     font-family: mainfont;
     src: url('../nix/fonts/involve/involve-Bold.ttf');
 }
-}
-@font-face {
-    font-family: buttonfont;
-    src: url('../nix/fonts/involve/involve-Regular.ttf');
-}
+
 body {
 	background-color: #000;
 	color: #fff;
@@ -82,7 +78,7 @@ body {
 	line-height: 3;
 }
 .button-start {
-	font-family: buttonfont, sans-serif;
+	font-family: mainfont, sans-serif;
 	font-weight: 600;
 	text-transform: uppercase;
 	font-size: calc(var(--index) * .71);
@@ -101,7 +97,7 @@ body {
 }
 
 .button-start11 {
-	font-family: buttonfont, sans-serif;
+	font-family: mainfont, sans-serif;
 	font-weight: 300;
 	text-transform: uppercase;
 	font-size: calc(var(--index) * .71);
