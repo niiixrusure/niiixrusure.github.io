@@ -1,11 +1,11 @@
 @font-face {
 	font-family: nix;
-	src: url('fonts/involve/Involve-bold.ttf');
+	src: url('fonts/involve/Involve-Bold.ttf');
 	font-weight: 300;
 }
 @font-face {
 	font-family: nixs;
-	src: url('fonts/involve/Involve-semibold.ttf');
+	src: url('fonts/involve/Involve-SemiBold.ttf');
 	font-weight: 300;
 }
 @font-face {
@@ -128,7 +128,7 @@ a{
   display: inline-block;
   vertical-align: middle;
   content: "";
-  top: 21px;
+  top: 19px;
   height: 13px; /* Decreased height by 2 times */
   width: 13px; /* Decreased height by 2 times */
   left: 2px; /* Adjusted position */
