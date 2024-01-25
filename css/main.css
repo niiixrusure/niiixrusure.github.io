@@ -9,14 +9,15 @@
 	--index: calc(1vw + 1vh);
 	--transition: 1.5s cubic-bezier(.05, .5, 0, 1);
 }
-@font-face{
-	font-family: involvo;
-	src: url('../nix/fonts/involve/Involve-Regular.ttf')
+@font-face {
+    font-family: kamerik-3d;
+    src: url(../fonts/kamerik205-heavy.woff2);
+    font-weight: 900;
 }
 body {
 	background-color: #000;
 	color: #fff;
-	font-family: involvo;
+	font-family: kamerik-3d;
 }
 .layers {
 	perspective: 1000px;
@@ -40,9 +41,7 @@ body {
 	justify-content: center;
 }
 .layer-1 {
-	
-	transform: translateY(-15px) translateZ(-55px) scale(2.1);
-	
+	transform: translateZ(-55px) scale(1.06);
 }
 .layer-2 {
 	transform: translateZ(80px) scale(.88);
@@ -60,7 +59,7 @@ body {
 	transform: translateZ(380px);
 }
 .hero-content {
-	font-family: involvo, sans-serif;
+	font-family: kamerik-3d, sans-serif;
 	font-size: calc(var(--index) * 2.9);
 	text-align: center;
 	text-transform: uppercase;
@@ -73,13 +72,13 @@ body {
 }
 .hero-content__p {
 	text-transform: none;
-	font-family: involvo;
+	font-family: "Inter";
 	letter-spacing: normal;
 	font-size: calc(var(--index) * .73);
 	line-height: 3;
 }
 .button-start {
-	font-family: involvo;
+	font-family: Arial;
 	font-weight: 600;
 	text-transform: uppercase;
 	font-size: calc(var(--index) * .71);
@@ -98,7 +97,7 @@ body {
 }
 
 .button-start11 {
-	font-family: involvo;
+	font-family: Arial;
 	font-weight: 300;
 	text-transform: uppercase;
 	font-size: calc(var(--index) * .71);
