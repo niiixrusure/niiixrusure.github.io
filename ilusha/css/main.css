@@ -120,7 +120,7 @@ video.frame-media_left {
 	transition: .25s ease;
 }
 .soundbutton.paused {
-	brightness(0.9);
+	filter: brightness(1.1);
 	opacity: .15;
 }
 
