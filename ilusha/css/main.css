@@ -120,7 +120,7 @@ video.frame-media_left {
 	transition: .25s ease;
 }
 .soundbutton.paused {
-	opacity: .50;
+	opacity: 1.0;
 }
 
 ССЫЛКИ
