@@ -116,10 +116,11 @@ video.frame-media_left {
 	bottom: 5vh;
 	right: 5vw;
 	cursor: pointer;
-	width: 50px;
+	width: 55px;
 	transition: .50s ease;
 }
 .soundbutton.paused {
+	filter: url("../../media/звук3.png");
 	filter: invert(90%);
 	opacity: 1.0;
 }
