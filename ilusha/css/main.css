@@ -116,21 +116,12 @@ video.frame-media_left {
 	bottom: 5vh;
 	right: 5vw;
 	cursor: pointer;
-	width: 55px;
-	transition: .50s ease;
-}
-}
-.soundbutton1 {
-	position: fixed;
-	bottom: 5vh;
-	right: 10vw;
-	cursor: pointer;
-	width: 55px;
+	width: 65px;
 	transition: .50s ease;
 }
 .soundbutton.paused {
 	filter: blur(1px);
-	opacity: 1.0;
+	opacity: 0.50;
 }
 
 ССЫЛКИ
