@@ -116,7 +116,7 @@ video.frame-media_left {
 	bottom: 5vh;
 	right: 5vw;
 	cursor: pointer;
-	width: 100px;
+	width: 50px;
 	transition: .25s ease;
 }
 .soundbutton.paused {
@@ -170,7 +170,7 @@ a:active {
 	bottom: 5vh;
 	right: 5vw;
 	cursor: pointer;
-	width: 300px;
+	width: 400px;
 	transition: .25s ease;
 	align-items: center;
 	justify-content: center;
