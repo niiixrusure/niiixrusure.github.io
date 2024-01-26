@@ -212,11 +212,11 @@ h2{
 	width: 24px;
 	transition: .25s ease-in;
   
-	opacity: .25;
+	opacity: 1;
 }
 .soundbutton.paused {
   transition: .25 ease-in;
-  opacity: 1;
+  opacity: .25;
 }
 .sigma{
   width: 5%;
