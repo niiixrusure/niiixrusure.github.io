@@ -116,11 +116,11 @@ video.frame-media_left {
 	bottom: 5vh;
 	right: 5vw;
 	cursor: pointer;
-	width: 57px;
+	width: 100px;
 	transition: .25s ease;
 }
 .soundbutton.paused {
-	opacity: .25;
+	opacity: .15;
 }
 
 ССЫЛКИ
