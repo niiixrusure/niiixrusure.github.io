@@ -120,8 +120,19 @@ video.frame-media_left {
 	transition: .50s ease;
 }
 .soundbutton.paused {
-	filter: blur(9px);
-	opacity: 0.20;
+	filter: blur(4px);
+	opacity: 0.50;
+}
+}
+.soundbutton.paused1 {
+	right: 10vw;
+	filter: blur(4px);
+	opacity: 0.50;
+}
+.soundbutton.paused2 {
+	right: 15vw;
+	filter: blur(4px);
+	opacity: 0.50;
 }
 
 ССЫЛКИ
