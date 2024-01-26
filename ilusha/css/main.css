@@ -177,3 +177,12 @@ a:active {
 	justify-content: center;
 }
 
+}
+.knopka {
+	position: fixed;
+	bottom: 5vh;
+	right: 5vw;
+	cursor: pointer;
+	width: 55px;
+	transition: .50s ease;
+}
