@@ -119,6 +119,15 @@ video.frame-media_left {
 	width: 55px;
 	transition: .50s ease;
 }
+}
+.soundbutton1 {
+	position: fixed;
+	bottom: 5vh;
+	right: 10vw;
+	cursor: pointer;
+	width: 55px;
+	transition: .50s ease;
+}
 .soundbutton.paused {
 	filter: blur(1px);
 	opacity: 1.0;
@@ -177,12 +186,3 @@ a:active {
 	justify-content: center;
 }
 
-}
-.knopka {
-	position: fixed;
-	bottom: 5vh;
-	right: 5vw;
-	cursor: pointer;
-	width: 55px;
-	transition: .50s ease;
-}
