@@ -120,8 +120,7 @@ video.frame-media_left {
 	transition: .50s ease;
 }
 .soundbutton.paused {
-	filter: url("../../media/звук3.png");
-	filter: invert(90%);
+	filter: blur(1px);
 	opacity: 1.0;
 }
 
