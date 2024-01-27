@@ -3,147 +3,19 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<style>
-		:root {
-  --border: rgb(3, 169, 244);
-  
-  --g1: rgb(98, 0, 234);
-  --g2: rgb(236, 64, 122);
-  --g3: rgb(253, 216, 53);
-}
-
-body {
-  background-color: rgb(10, 10, 10);
-  display: grid;
-  height: 100vh;
-  margin: 0px;
-  padding: 0px;
-  place-items: center;
-}
-
-.card {
-  aspect-ratio: 1 / 1.6;
-  border: 0.5vmin solid var(--border);
-  cursor: pointer;
-  position: relative;
-  width: 56vmin;
-}
-
-.card:hover:before {
-  background-position: 100% 100%;
-  transform: scale(1.08, 1.03);
-}
-
-.card:hover > .card-content {
-  background-position: -10% 0%;
-}
-
-.card:hover > .card-icon {
-  color: white; 
-}
-
-.card:hover > .card-content > .card-subtitle > .card-subtitle-word {  
-  opacity: 1;
-  transform: translateY(0%);
-  transition: opacity 0ms, transform 200ms cubic-bezier(.90, .06, .15, .90);
-}
-
-.card:before {
-  background: linear-gradient(
-    130deg, 
-    transparent 0% 33%, 
-    var(--g1) 66%, 
-    var(--g2) 83.5%, 
-    var(--g3) 100%
-  );
-  background-position: 0% 0%;
-  background-size: 300% 300%;
-  content: "";
-  height: 100%;
-  left: 0px;
-  pointer-events: none;
-  position: absolute;
-  top: 0px;
-  transition: background-position 350ms ease, transform 350ms ease;
-  width: 100%;
-  z-index: 1;
-}
-
-.card-content {
-  background-image: radial-gradient(
-    rgba(255, 255, 255, 0.2) 8%, 
-    transparent 8%
-  );
-  background-position: 0% 0%;
-  background-size: 5vmin 5vmin;
-  height: calc(100% - 10vmin);
-  padding: 5vmin;
-  position: relative;
-  transition: background-position 350ms ease;
-  width: calc(100% - 10vmin);
-  z-index: 2;
-}
-
-.card-title,
-.card-subtitle {
-  color: white;
-  font-family: "Anek Latin", sans-serif;
-  font-weight: 400;
-  margin: 0px;
-}
-
-.card-title {
-  font-size: 6vmin;
-}
-
-.card-subtitle {
-  font-size: 3vmin;
-  margin-top: 2vmin;
-}
-
-.card-subtitle-word {
-  display: inline-block;
-  margin: 0vmin 0.3vmin;
-  opacity: 0;
-  position: relative;  
-  transform: translateY(40%);
-  transition: none;
-}
-
-.card-icon {
-  bottom: 0px;
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 7vmin;
-  left: 0px;
-  margin: 5vmin;
-  position: absolute;
-  transition: color 250ms ease;
-  z-index: 2;
-}
-	</style>
+	<title>zh3lly</title>
+	<link rel="stylesheet" href="web.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-	<div class="card">
-  		<div class="card-content">
-    		<h3 class="card-title">zh3lly implements Twitch</h3>
-    		<h4 class="card-subtitle"></h4>
-  		</div>
+	<div class="contacts">
+		<a href="https://github.com/zhelly-dev"><i class="fa-brands fa-github" style="color: #dadada;"></i></a>
+		<a href="https://discordapp.com/users/1114813568987181067"><i class="fa-brands fa-discord" style="color: #dadada;"></i></a>
 	</div>
-
-	<script>
-		const subtitle = document.getElementsByClassName("card-subtitle")[0];
-		const createWord = (text, index) => {
-	  		const word = document.createElement("span");
- 	 		word.innerHTML = `${text} `;
-	  		word.classList.add("card-subtitle-word");
-	  		word.style.transitionDelay = `${index * 40}ms`;
-	  		return word;
-		}
-
-		const addWord = (text, index) => subtitle.appendChild(createWord(text, index));
-		const createSubtitle = text => text.split(" ").map(addWord);
-		createSubtitle("zh3lly is shit.");
-	</script>
+	<div class="title">
+		<h1 class="layer1">zh3lly</h1>
+		<h1 class="layer2">zh3lly</h1>
+	</div>
+	<img src="https://resources.cdn-kaspi.kz/img/m/p/h56/h55/67900186132510.jpg?format=gallery-large" alt="">
 </body>
 </html>
