@@ -121,61 +121,10 @@ video.frame-media_left {
 }
 .soundbutton.paused {
 	filter: invert (100%);
-	opacity: 1.0;
-}
-}
-.soundbutton.paused1 {
-	right: 10vw;
-	filter: blur(4px);
-	opacity: 0.50;
-}
-.soundbutton.paused2 {
-	right: 15vw;
-	filter: blur(4px);
-	opacity: 0.50;
+	opacity: 0.70;
 }
 
-ССЫЛКИ
-
-.bodyl {
-  width: 300px;
-  margin: 0 auto;
-  font-size: 1.2rem;
-  font-family: sans-serif;
-}
-
-p {
-  line-height: 1.4;
-}
-
-a {
-  outline: none;
-  text-decoration: none;
-  padding: 2px 1px 0;
-}
-
-a:link {
-  color: #ffffff;
-}
-
-a:visited {
-  color: #ffffff;
-}
-
-a:focus {
-  border-bottom: 1px solid;
-  background: #ffffff36;
-}
-
-a:hover {
-  border-bottom: 1px solid;
-  background: #ffffff42;
-}
-
-a:active {
-  background: #ffffff27;
-  color: #ffffff;
-}
+// часть2
 
 .avatar {
 	position: fixed;
@@ -188,3 +137,4 @@ a:active {
 	justify-content: center;
 }
 
+// YouTube (часть3)
