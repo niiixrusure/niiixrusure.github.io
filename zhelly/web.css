@@ -1,32 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Geologica&family=Jost:wght@600&family=Montserrat&family=Nunito&family=Questrial&family=Wix+Madefor+Display&display=swap');
-
 body {
-	background-color: #313b31;
-	color: #c0cfbe;
-	font-family: "Montserrat", sans-serif;
-	font-size: 49px;
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
+	background-color: #141b1e;
 }
 
-a {
-	color: #c0cfbe;
-	text-decoration: none;
+.title {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	transition: .2s all;
+	font-family: "Helvetica";
+	color: #dadada;
 }
 
-.fancy {
-	position: absolute;	
-	top: 50%;
-	left: 50%;	
-	transform: translate(-50%,-50%);
+h1 {font-size: 100px;}
+
+/* i hate this */
+.layer1, .layer2 {
+	position: absolute;
+	transition: .2s;
+	user-select: none;
 }
 
-.fancy > .letter {display: inline-block; transition: transform 0.3s ease;}
-.fancy:hover > .letter {transition-duration: 0.5s}
+.layer1 {z-index: 2;}
+.layer2 {z-index: 1; color: #8ccf7e;}
 
-.fancy:hover > .letter:nth-child(1) {transform: translate(-80%,60%) rotate(8deg);}
-.fancy:hover > .letter:nth-child(2) {transform: translate(-40%,20%) rotate(4deg);}
-.fancy:hover > .letter:nth-child(3) {transform: translate(-10%,60%) rotate(-6deg);}
-.fancy:hover > .letter:nth-child(4) {transform: translate(0%,8%) rotate(-8deg);}
-.fancy:hover > .letter:nth-child(5) {transform: translate(0%,-20%) rotate(-3deg);}
-.fancy:hover > .letter:nth-child(6) {transform: translate(0%,20%) rotate(-3deg);}
+.layer1:hover + .layer2, .layer2:hover {
+	transform: translate(4%, 4%);
+	transition: .2s all;
+}
+
+.contacts {
+	position: relative;
+	font-size: 24px;
+}
+
+.contacts {
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+
+	margin-bottom: 10px;
+	margin-right: 10px;
+	
+	right: 0;
+}
