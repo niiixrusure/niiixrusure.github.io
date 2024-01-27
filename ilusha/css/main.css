@@ -120,7 +120,6 @@ video.frame-media_left {
 	transition: .50s ease;
 }
 .soundbutton.paused {
-	filter: invert (100%);
 	opacity: 0.70;
 }
 
