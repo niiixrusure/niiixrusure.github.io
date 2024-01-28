@@ -168,8 +168,7 @@ a:active {
 }
 .avatar2 {
 	position: fixed;
-	bottom: 17vh;
-	right: 0vw;
+	bottom: 33vh;
 	cursor: pointer;
 	width: 400px;
 	transition: .25s ease;
