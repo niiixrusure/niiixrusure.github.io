@@ -112,13 +112,14 @@ body {
 	cursor: pointer;
 	margin-top: calc(var(--index) * 2.5);
 }
+
 }
 .soundbutton {
 	position: fixed;
-	bottom: 5vh;
-	right: 5vw;
+	bottom: 10vh;
+	right: 10vw;
 	cursor: pointer;
-	width: 65px;
+	width: 60px;
 	transition: .50s ease;
 }
 .soundbutton.paused {
