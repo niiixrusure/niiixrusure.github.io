@@ -115,12 +115,12 @@ body {
 
 }
 .soundbutton {
-	position: fixed;
-	bottom: 10vh;
-	right: 10vw;
-	cursor: pointer;
-	width: 60px;
-	transition: .50s ease;
+	position: fixed !important;
+	bottom: 10vh !important;
+	right: 10vw !important;
+	cursor: pointer !important;
+	width: 60px !important;
+	transition: .50s ease !important;
 }
 .soundbutton.paused {
 	opacity: 0.70;
