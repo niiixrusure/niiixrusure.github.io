@@ -168,10 +168,10 @@ a:active {
 }
 .avatar2 {
 	position: fixed;
-	bottom: 33vh;
-	right: 16vw;
+	bottom: 36.5vh;
+	right: 17vw;
 	cursor: pointer;
-	width: 400px;
+	width: 150px;
 	transition: .25s ease;
 	align-items: center;
 	justify-content: center;
