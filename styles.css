@@ -52,3 +52,15 @@ a {text-decoration: none; color: white;}
     -webkit-user-select: none;
     -ms-user-select: none;
 }
+}
+.soundbutton {
+	position: fixed;
+	bottom: 10vh;
+	right: 10vw;
+	cursor: pointer;
+	width: 60px;
+	transition: .50s ease;
+}
+.soundbutton.paused {
+	opacity: 0.70;
+}
