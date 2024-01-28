@@ -166,13 +166,3 @@ a:active {
 	align-items: center;
 	justify-content: center;
 }
-.avatar2 {
-	position: fixed;
-	bottom: 36.5vh;
-	right: 17vw;
-	cursor: pointer;
-	width: 150px;
-	transition: .25s ease;
-	align-items: center;
-	justify-content: center;
-}
