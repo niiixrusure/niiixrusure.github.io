@@ -112,6 +112,14 @@ body {
 	cursor: pointer;
 	margin-top: calc(var(--index) * 2.5);
 }
+#pidor{
+    position: fixed;
+    bottom: 5vh;
+    right: 5vw;
+    cursor: pointer;
+    width: 65px;
+    transition: .50s ease;
+}
 .soundbutton {
 	position: fixed !important;
 	bottom: 10vh !important;
