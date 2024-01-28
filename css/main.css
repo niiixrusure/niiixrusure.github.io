@@ -112,8 +112,6 @@ body {
 	cursor: pointer;
 	margin-top: calc(var(--index) * 2.5);
 }
-
-}
 .soundbutton {
 	position: fixed !important;
 	bottom: 10vh !important;
