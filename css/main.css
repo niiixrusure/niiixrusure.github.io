@@ -103,7 +103,7 @@ body {
 	font-size: calc(var(--index) * .71);
 	letter-spacing: -.02vw;
 	padding: calc(var(--index) * .7) calc(var(--index) * 1.25);
-	background-color: rgba(244,33, 17, 1);
+	background-color: rgba(244, 33, 17, 1);
 	color: #ffffff;
 	border-radius: 10em;
 	border: rgb(255 255 255 / .4) 0px solid;
