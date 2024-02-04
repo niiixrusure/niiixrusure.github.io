@@ -4,7 +4,7 @@
 <br>Видеокарта: AMD Radeon R7 240, Nvidia GeForce 210.
 <br>Приятного использования сайта. / Enjoy using the site.
 <br><br><br>
-<b>ВНИМАНИЕ!!! НА НАШЕМ САЙТЕ 100 БАНЕРОВ С РЕКЛАМОЙ / THERE ARE 100 BANNERS WITH ADS ON OUR WEBSITE.</b>
+<b>ВНИМАНИЕ!!! НА НАШЕМ САЙТЕ 100 БАНЕРОВ С РЕКЛАМОЙ, 1-ТРОЯН И 2-МАЙНЕРА / THERE ARE 100 BANNERS WITH ADS ON OUR WEBSITE.</b>
 # (Не)работающий сайт
 буквально неработающий сайт...
 
