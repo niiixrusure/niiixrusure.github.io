@@ -3,7 +3,7 @@
 <br>Оперативная память: 1 ГБ (DDR3, DDR4, DDR5)
 <br>Видеокарта: AMD Radeon R7 240, Nvidia GeForce 210.
 <br>Приятного использования сайта. / Enjoy using the site.
-<br><br><br>
+<br>
 <p>
   Поддержать авторов
   <a href="https://www.tinkoff.ru/"><b>Донат</b></a>.
