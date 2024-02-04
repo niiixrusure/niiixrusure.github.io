@@ -1,10 +1,13 @@
 # Минимальные системные требованиея
-Процессор: Intel Core i9 14900K, AMD Ryzen 9 7950X3D, AMD Ryzen Threadripper 3990X.
+Процессор: Intel Celeron G6900, AMD Athlon 200GE OEM.
 <br>Оперативная память: 1 ГБ (DDR3, DDR4, DDR5)
 <br>Видеокарта: AMD Radeon R7 240, Nvidia GeForce 210.
 <br>Приятного использования сайта. / Enjoy using the site.
 <br><br><br>
-<b>ВНИМАНИЕ!!! НА НАШЕМ САЙТЕ 100 БАНЕРОВ С РЕКЛАМОЙ, 1-ТРОЯН И 2-МАЙНЕРА / THERE ARE 100 BANNERS WITH ADS ON OUR WEBSITE.</b>
+<p>
+  Поддержать авторов
+  <a href="https://www.tinkoff.ru/"><b>Донат</b></a>.
+</p>
 # (Не)работающий сайт
 буквально неработающий сайт...
 
