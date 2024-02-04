@@ -19,25 +19,24 @@ body {
 body::-webkit-scrollbar { 
 	display: none; /* Safari and Chrome */
 }
-
 @font-face {
-	font-family: Ilya;
+	font-family: Ilyata;
 	src: url(../ilusha/fonts/ilyadw.ttf);
-	font-weight: 300;
+	font-weight: 900;
 }
 @font-face {
-	font-family: IlyaMed;
+	font-family: Ilyamd;
 	src: url(../ilusha/fonts/ilyadw med.ttf);
-	font-weight: 100;
+	font-weight: 900;
 }
 body {
 	background-color: #000;
 	color: #fff;
 	font-size: calc(var(--index) * .8);
-	font-family: Ilya, sans-serif;
+	font-family: Ilyata, sans-serif;
 	line-height: 1.75;
 	height: var(--depth);
-	font-weight: 300;
+	font-weight: 900;
 }
 .container {
 	width: 100%;
