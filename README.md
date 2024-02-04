@@ -1,7 +1,7 @@
-#Минимальные системные требование:
+# Минимальные системные требование
 Процессор: Intel Core i9 14900K LGA1700, 24 x 3200 МГц, AMD Ryzen 9 7950X3D AM5, 16 x 4200 МГц, AMD Ryzen Threadripper 3990X sTRX4, 64 x 2900 МГц.
 Оперативная память: 1 ГБ (DDR3, DDR4, DDR5)
-Видеокарта: AMD Radeon R7 240, KFA2 GeForce 210.
+Видеокарта: AMD Radeon R7 240, Nvidia GeForce 210.
 Приятного использования сайта. / Enjoy using the site.
 
 # (Не)работающий сайт
