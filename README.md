@@ -4,10 +4,6 @@
 <br>Видеокарта: AMD Radeon R7 240, Nvidia GeForce 210.
 <br>Приятного использования сайта. / Enjoy using the site.
 <br>
-<p>
-  Поддержать авторов
-  <a href="https://www.donationalerts.com/"><b>Донат</b></a>.
-</p>
 
 # (Не)работающий сайт
 буквально неработающий сайт...
@@ -18,11 +14,8 @@
 Сайт сделан: nixrusure, [zh3lly](https://www.github.com/zhelly-dev), [ilushha](https://www.github.com/Ilyamori) 
 
 ## кто?
-в сайте есть люди, большинство из Discord сервера сообщества ютубера Dalbek, вот они ~слева направо~ сверху вниз:
-* Elis
+в сайте есть люди, большинство из Discord сервера [нового года не будет](https://discord.gg/sNQemMH9sa), вот они ~слева направо~ сверху вниз:
 * Мори (A.K.A ilushha)
-* Jhonny Cage
-* KimPy
 * Кирилл Сухарев
 * nixrusure
 * zh3lly
