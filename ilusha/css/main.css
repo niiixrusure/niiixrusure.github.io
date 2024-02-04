@@ -20,8 +20,8 @@ body::-webkit-scrollbar {
 	display: none; /* Safari and Chrome */
 }
 @font-face {
-	font-family: Ilyata;
-	src: url(../ilusha/fonts/ilyadw.ttf);
+	font-family: Ilya;
+	src: url(../fonts/ilyadw.ttf);
 	font-weight: 900;
 }
 @font-face {
@@ -33,7 +33,7 @@ body {
 	background-color: #000;
 	color: #fff;
 	font-size: calc(var(--index) * .8);
-	font-family: Ilyata, sans-serif;
+	font-family: Ilya, sans-serif;
 	line-height: 1.75;
 	height: var(--depth);
 	font-weight: 900;
