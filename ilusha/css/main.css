@@ -121,6 +121,7 @@ video.frame-media_left {
 }
 .soundbutton.paused {
 	opacity: 0.70;
+	filter: grayscale(100%);
 }
 .bodyl {
   width: 300px;
