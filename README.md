@@ -6,7 +6,7 @@
 <br>
 <p>
   Поддержать авторов
-  <a href="https://www.tinkoff.ru/"><b>Донат</b></a>.
+  <a href="https://www.donationalerts.com/"><b>Донат</b></a>.
 </p>
 
 # (Не)работающий сайт
