@@ -22,12 +22,12 @@ body::-webkit-scrollbar {
 
 @font-face {
 	font-family: Ilya;
-	src: url(ilusha/fonts/ilyadw.woff2);
+	src: url(../ilusha/fonts/ilyadw.woff2);
 	font-weight: 300;
 }
 @font-face {
 	font-family: IlyaMed;
-	src: url(ilusha/fonts/ilyadw med.woff2);
+	src: url(../ilusha/fonts/ilyadw med.woff2);
 	font-weight: 100;
 }
 body {
