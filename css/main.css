@@ -105,6 +105,8 @@ body {
 	padding: calc(var(--index) * .7) calc(var(--index) * 1.25);
 	background-color: rgba(190, 190, 190, 0.5);
 	color: #ffffff;
+	border-radius: 10em;
+	border: rgb(255 255 255 / .4) 3px solid;
 	outline: none;
 	cursor: pointer;
 	margin-top: calc(var(--index) * 2.5);
