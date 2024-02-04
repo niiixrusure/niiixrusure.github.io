@@ -22,12 +22,12 @@ body::-webkit-scrollbar {
 
 @font-face {
 	font-family: Ilya;
-	src: url(../fonts/raleway-v22-cyrillic-300.woff2);
+	src: url(ilusha/fonts/ilyadw.woff2);
 	font-weight: 300;
 }
 @font-face {
-	font-family: Ilya;
-	src: url(../fonts/raleway-v22-cyrillic-100.woff2);
+	font-family: IlyaMed;
+	src: url(ilusha/fonts/ilyadw med.woff2);
 	font-weight: 100;
 }
 body {
@@ -126,7 +126,7 @@ video.frame-media_left {
   width: 300px;
   margin: 0 auto;
   font-size: 1.2rem;
-  font-family: sans-serif;
+  font-family: Ilya, sans-serif;
 }
 
 p {
