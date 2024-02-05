@@ -1,50 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<style type="text/css">
-		a:link, a:visited { color:#ffffff; }
-		</style>
+
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Главная</title>
+	<title>Крокодил сайт</title>
+
 	<link rel="stylesheet" href="css/main.css">
+
+	<script src="libs/gsap.min.js" defer></script>
+	<script src="libs/Draggable.min.js" defer></script>
+	<script src="libs/InertiaPlugin.min.js" defer></script>
 	<script src="js/app.js" defer></script>
-	<script src="libs/rain.js" defer></script>
-	<link rel="stylesheet" href="css/bimbim.css">
+
+	<style>
+		.gallery { opacity: 0; }
+	</style>
+
 </head>
 <body>
 
-	<div class="author">
-		<span>made by: <a href='https://github.com/Ilyamori'>ilushamori</a> <a href='https://github.com/zhelly-dev'>zhelly-dev</a> <a href='https://github.com/niiixrusure'>niiixrusure</a><br><br></span>
+	<h1 class="header">Текст123 <span>Пудж загружает страницу, ожидайте.</span></h1>
+
+	<!-- .gallery>(.gallery__item*20>img[src="img/$.jpg" alt="Alt"])*4 -->
+	<div class="gallery">
+		<div class="gallery__item"><img src="img/1.png" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/21.png" alt="Alt"></div>
 	</div>
-	<!-- bim bim bam bam -->
-	<section class="layers">
-		<div class="layers__container">
-			<div class="layers__item layer-1" style="background-image: url(img/layer-png);"></div>
-			<!-- РАБОТАЕТ =) !!!!!! -->
-			<div class="layers__item layer-2" style="background-image: url(img/glavnaya.png);"></div>
-			<div class="layers__item layer-3">
-				<div class="hero-content">
-					<h1><span></span></h1>
-					<div class="hero-content__p"></div>
-					<a href="ks/index.html"><button class="button-start">Кирилл Сухарев</button></a>
-					<a href="nix/index.html"><button class="button-start">nix</button></a>
-					<a href="zhelly/index.html"><button class="button-start">zhelly</button></a>
-					<a href="ilusha/index.html"><button class="button-start">Илюша</button></a>
-					<span><button class="button-start11"><a href="https://www.youtube.com/watch?v=-MQpd90gyRI"style="text-decoration: none; "><p>Secret Staff</a></button></span></h1> 
-				</div>
-			</div>
-			<div class="layers__item layer-4">
-				<canvas class="rain"></canvas>
-			</div>
-			<div class="layers__item layer-5" style="background-image: url(img/layer-png);"></div>
-			<div class="layers__item layer-6" style="background-image: url(img/layerpng);"></div>
-			
-		</div>
-	</section>
-	
-	<img id='pidor' class="soundbutton" src="ilusha/media/звук2.png" alt="Alt">
-	<audio class="audio" src="ilusha/media/yasigma ahh sound.mp3" loop></audio>
+
+	<img class="soundbutton paused" src="img/звук.png" alt="Alt" text="Включить звук">
+	<audio class="audio" src="img/Samsung - Over The Horizon 2019 (Official).mp3" loop></audio>
+
 </body>
 </html>
