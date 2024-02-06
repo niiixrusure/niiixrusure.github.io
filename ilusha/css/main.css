@@ -21,12 +21,12 @@ body::-webkit-scrollbar {
 }
 @font-face {
 	font-family: Ila;
-	src: url(../fonts/IlyaNTR.ttf);
+	src: url(fonts/IlyaNTR.ttf);
 	font-weight: 900;
 }
 @font-face {
 	font-family: Ilb;
-	src: url(../fonts/IlyaNTB.ttf);
+	src: url(fonts/IlyaNTB.ttf);
 	font-weight: 900;
 }
 body {
