@@ -69,7 +69,7 @@ body {
 	text-transform: uppercase;
 	letter-spacing: calc(var(--index) * -.15);
 	line-height: 1.35em;
-	margin-top: calc(var(--index) * 24);
+	margin-top: calc(var(--index) * 22);
 }
 .hero-content span {
 	display: block;
@@ -91,7 +91,7 @@ body {
 	background-color: transparent;
 	color: #fff;
 	border-radius: 10em;
-	border: rgb(255 255 255 / .4) 3px solid;
+	border: rgb(255 255 255 / .0) 3px solid;
 	outline: none;
 	cursor: pointer;
 	margin-top: calc(var(--index) * 2.5);
