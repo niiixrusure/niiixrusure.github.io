@@ -20,20 +20,20 @@ body::-webkit-scrollbar {
 	display: none; /* Safari and Chrome */
 }
 @font-face {
-	font-family: Ilya;
-	src: url(fonts/NTSomic-Regular.ttf);
+	font-family: fa;
+	src: url(../fonts/NTSomic-Regular.ttf);
 	font-weight: 900;
 }
 @font-face {
-	font-family: Ilyab;
-	src: url(fonts/NTSomic-Bold.ttf);
+	font-family: fb;
+	src: url(../fonts/NTSomic-Bold.ttf);
 	font-weight: 900;
 }
 body {
 	background-color: #000;
 	color: #fff;
 	font-size: calc(var(--index) * .8);
-	font-family: Ilya, sans-serif;
+	font-family: fa, sans-serif;
 	line-height: 1.75;
 	height: var(--depth);
 	font-weight: 900;
@@ -126,7 +126,7 @@ video.frame-media_left {
   width: 300px;
   margin: 0 auto;
   font-size: 1.2rem;
-  font-family: Ilya, sans-serif;
+  font-family: fa, sans-serif;
 }
 
 p {
