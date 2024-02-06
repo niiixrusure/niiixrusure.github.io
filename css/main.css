@@ -11,12 +11,12 @@
 }
 @font-face {
 	font-family: buta;
-	src: url(../fonts/Involve-SemiBold.ttf);
+	src: url(../fonts/NTSomic-Regular.ttf);
 	font-weight: 900;
 }
 @font-face {
 	font-family: butab;
-	src: url(../fonts/Involve-Bold.ttf);
+	src: url(../fonts/NTSomic-Bold.ttf);
 	font-weight: 900;
 }
 body {
