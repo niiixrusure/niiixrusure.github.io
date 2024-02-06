@@ -21,10 +21,6 @@ body::-webkit-scrollbar {
 }
 @font-face {
 	font-family: fa;
-	src: url(../fonts/Involve-Regular.ttf);
-}
-@font-face {
-	font-family: fb;
 	src: url(../fonts/Involve-Bold.ttf);
 }
 body {
