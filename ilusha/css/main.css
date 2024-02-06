@@ -21,12 +21,7 @@ body::-webkit-scrollbar {
 }
 @font-face {
 	font-family: fa;
-	src: url(../fonts/NTSomic-Regular.ttf);
-	font-weight: 900;
-}
-@font-face {
-	font-family: fb;
-	src: url(../fonts/NTSomic-Bold.ttf);
+	src: url(../fonts/Involve-SemiBold.ttf);
 	font-weight: 900;
 }
 body {
