@@ -134,7 +134,7 @@ body {
 }
 .soundbutton.paused {
 	opacity: 0.40;
-	filter: invert(1);
+	filter: grayscale(1);
 }
 #myVideo {
   position: fixed;
