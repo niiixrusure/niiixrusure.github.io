@@ -107,9 +107,9 @@ body {
 	font-size: calc(var(--index) * .51);
 	letter-spacing: -.02vw;
 	padding: calc(var(--index) * .3) calc(var(--index) * 1.05);
-	background-color: rgba(190, 190, 190, 0.5);
+	background-color: rgba(190, 190, 190, 0.0);
 	color: #ffffff;
-	border-radius: 10em;
+	border-radius: 0em;
 	border: rgb(255 255 255 / .0) 3px solid;
 	outline: none;
 	cursor: pointer;
