@@ -26,7 +26,7 @@ body::-webkit-scrollbar {
 }
 @font-face {
 	font-family: Ilyam;
-	src: url(../ilusha/fonts/ilyadw med.ttf);
+	src: url(../ilusha/fonts/ilyadw-bold.ttf);
 	font-weight: 900;
 }
 body {
