@@ -113,6 +113,8 @@ body {
 	border: rgb(255 255 255 / .0) 3px solid;
 	outline: none;
 	cursor: pointer;
+	animation: showDiv 5s forwards;
+	transition: .50s ease !important;
 }
 #pidor{
     position: fixed;
