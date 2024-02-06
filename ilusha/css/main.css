@@ -21,7 +21,7 @@ body::-webkit-scrollbar {
 }
 @font-face {
 	font-family: fa;
-	src: url(../fonts/Involve-Bold.ttf);
+	src: url(../fonts/Involve-Regular.ttf);
 }
 body {
 	background-color: #000;
