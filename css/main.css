@@ -113,7 +113,6 @@ body {
 	border: rgb(255 255 255 / .0) 3px solid;
 	outline: none;
 	cursor: pointer;
-	margin-top: calc(var(--index) * 2.5);
 }
 #pidor{
     position: fixed;
