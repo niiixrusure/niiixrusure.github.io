@@ -69,7 +69,7 @@ body {
 	text-transform: uppercase;
 	letter-spacing: calc(var(--index) * -.15);
 	line-height: 1.35em;
-	margin-top: calc(var(--index) * 8.5);
+	margin-top: calc(var(--index) * 24);
 }
 .hero-content span {
 	display: block;
