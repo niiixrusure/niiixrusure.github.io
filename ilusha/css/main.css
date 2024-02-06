@@ -22,7 +22,6 @@ body::-webkit-scrollbar {
 @font-face {
 	font-family: fa;
 	src: url(Involve-SemiBold.ttf);
-	font-weight: 900;
 }
 body {
 	background-color: #000;
@@ -31,7 +30,6 @@ body {
 	font-family: fa, sans-serif;
 	line-height: 1.75;
 	height: var(--depth);
-	font-weight: 900;
 }
 .container {
 	width: 100%;
