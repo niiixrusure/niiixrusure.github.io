@@ -115,37 +115,3 @@ video.frame-media_left {
 	opacity: 0.70;
 	filter: grayscale(100%);
 }
-.bodyl {
-  width: 300px;
-  margin: 0 auto;
-  font-size: 1.2rem;
-  font-family: fa, sans-serif;
-}
-
-p {
-  line-height: 1.4;
-}
-
-a {
-  outline: none;
-  text-decoration: none;
-  padding: 2px 1px 0;
-}
-a:link {
-  color: #ffffff;
-}
-a:visited {
-  color: #ffffff;
-}
-a:focus {
-  border-bottom: 1px solid;
-  background: #ffffff36;
-}
-a:hover {
-  border-bottom: 1px solid;
-  background: #ffffff42;
-}
-a:active {
-  background: #ffffff27;
-  color: #ffffff;
-}
