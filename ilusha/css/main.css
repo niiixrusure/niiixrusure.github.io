@@ -64,7 +64,6 @@ h1, h2, h3, h4 {
 }
 .frame-media {
 	position: relative;
-	width: calc(var(--index) * var(--side-small));
 	height: calc(var(--index) * var(--side-big));
 	background-position: center;
 	background-size: cover;
