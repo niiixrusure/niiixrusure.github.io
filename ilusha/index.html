@@ -17,7 +17,7 @@
 	<div class="container">
 		<section class="gallery">
 
-			<!-- Фраймы галереи (Медиа) -->
+			<!-- Фрэймы галереи (Медиа) -->
 			<div class="frame">
 				<div class="frame__content">
 					<h2></h2>
@@ -44,19 +44,21 @@
 
 			<div class="frame frame_bg">
 				<div class="frame__content">
-					<img src="media/cherry.jpg" alt="Не удалось загрузить изображение">
+					<img class="frame-media" src="media/cherry.jpg" alt="Не удалось загрузить изображение"></img>
 				</div>
 			</div>
 
 			<div class="frame frame_bg">
 				<div class="frame__content">
-					<img src="media/me.jpg" alt="Не удалось загрузить изображение">
+					<img class="frame-media" src="media/me.jpg" alt="Не удалось загрузить изображение"></img>
 				</div>
 			</div>
 			
+			<!-- Переход от галереи к тексту -->
 			<div class="frame"></div>
 			<div class="frame"></div>
-		
+			
+			<!-- Текст -->
 			<div class="frame">
 				<div class="frame__content"><div class="text3"><b>Описание</b><br>Имя - Илья. Страна - Россия. Работа - Тимлид, Электронщик.</br></div>
 			</div>
@@ -64,6 +66,7 @@
 			
 		</section>
 		
+	<!-- Кнопка вкл/откл звука -->	
 	</div>
 	<img class="soundbutton paused" src="звук.png" alt="Alt" text="Включить звук">
 	<audio class="audio" src="media/звук.mp3" loop></audio>
