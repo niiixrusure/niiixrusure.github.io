@@ -10,12 +10,12 @@
 }
 @font-face {
 	font-family: raleway_m;
-	src: url(../fonts/raleway-v22-cyrillic-300.woff2);
+	src: url(../fonts/Involve-Regular.ttf);
 	font-weight: 300;
 }
 @font-face {
 	font-family: raleway_m;
-	src: url(../fonts/raleway-v22-cyrillic-900.woff2);
+	src: url(../fonts/Involve-Bold.ttf);
 	font-weight: 900;
 }
 body, html {
