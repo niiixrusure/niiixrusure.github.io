@@ -23,6 +23,10 @@ body::-webkit-scrollbar {
 	font-family: fa;
 	src: url(../fonts/Involve-Bold.ttf);
 }
+@font-face {
+	font-family: fmidj;
+	src: url(../fonts/NTSomic-Regular.ttf);
+}
 body {
 	background-color: #000;
 	color: #fff;
@@ -68,6 +72,17 @@ h1, h2, h3, h4 {
 	background-position: center;
 	background-size: cover;
 }
+.frame-media1 {
+	position: relative;
+	top: -16em;
+	border-radius: 30px;
+	border-color: rgba(255, 255, 255, 0.5);
+	border: 1px;
+	height: calc(var(--index) * var(--side-big));
+	background-position: center;
+	background-size: cover;
+	cursor: pointer;
+}
 .frame-media_left {
 	right: calc(var(--side-small) / 2 * var(--index) + var(--gutter));
 }
@@ -75,7 +90,16 @@ h1, h2, h3, h4 {
 	left: calc(var(--side-small) / 2 * var(--index) + var(--gutter));
 }
 .frame_bg {
-	background-color: rgb(0 0 0 / .87);
+	background-color: rgb(0, 0, 0);
+}
+.text1 {
+	color: #fff;
+	position: relative;
+	top: -2em;
+	text-align: center;
+	font-size: calc(var(--index) * 2.0);
+	line-height: 1.1;
+	font-family: fmidj, sans-serif;
 }
 video.frame-media {
 	width: calc(var(--index) * var(--side-big));
