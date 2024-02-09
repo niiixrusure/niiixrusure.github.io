@@ -74,7 +74,7 @@ h1, h2, h3, h4 {
 }
 .frame-media1 {
 	position: relative;
-	top: -16em;
+	top: -13em;
 	border-radius: 30px;
 	border-color: rgba(255, 255, 255, 0.5);
 	border: 1px;
@@ -95,7 +95,7 @@ h1, h2, h3, h4 {
 .text1 {
 	color: #fff;
 	position: relative;
-	top: -2em;
+	top: -4em;
 	text-align: center;
 	font-size: calc(var(--index) * 2.0);
 	line-height: 1.1;
