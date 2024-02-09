@@ -75,7 +75,7 @@ h1, h2, h3, h4 {
 .frame-media1 {
 	position: relative;
 	top: -13em;
-	border-radius: 30px;
+	border-radius: 50px;
 	border-color: rgba(255, 255, 255, 0.5);
 	border: 1px;
 	height: calc(var(--index) * var(--side-big));
