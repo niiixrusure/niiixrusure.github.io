@@ -34,6 +34,7 @@ body {
 	font-family: op, sans-serif;
 	line-height: 1.75;
 	height: var(--depth);
+	cursor: url(../media/cursor.cur), default;
 }
 .container {
 	width: 100%;
