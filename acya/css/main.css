@@ -14,8 +14,8 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	cursor: url(../../libs/2.cur), default;
-	cursor: url(../../libs/2.cur), pointer;
+	cursor: url(../2.cur), default;
+	cursor: url(../2.cur), pointer;
 }
 @font-face {
 	font-family: raleway-c;
