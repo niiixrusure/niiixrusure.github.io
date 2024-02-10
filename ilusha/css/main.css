@@ -24,14 +24,14 @@ body::-webkit-scrollbar {
 	src: url(../fonts/Involve-Bold.ttf);
 }
 @font-face {
-	font-family: fmidj;
+	font-family: op;
 	src: url(../fonts/NTSomic-Regular.ttf);
 }
 body {
 	background-color: #000;
 	color: #fff;
 	font-size: calc(var(--index) * .8);
-	font-family: fa, sans-serif;
+	font-family: op, sans-serif;
 	line-height: 1.75;
 	height: var(--depth);
 }
@@ -99,7 +99,7 @@ h1, h2, h3, h4 {
 	text-align: center;
 	font-size: calc(var(--index) * 2.0);
 	line-height: 1.1;
-	font-family: fmidj, sans-serif;
+	font-family: op, sans-serif;
 }
 video.frame-media {
 	width: calc(var(--index) * var(--side-big));
