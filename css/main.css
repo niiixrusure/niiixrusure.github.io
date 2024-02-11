@@ -80,17 +80,49 @@ body {
 	font-size: calc(var(--index) * .73);
 	line-height: 3;
 }
-.button-start {
+.button-startmale {
 	font-family: butab;
 	font-weight: 600;
 	text-transform: uppercase;
 	font-size: calc(var(--index) * .71);
 	letter-spacing: -.02vw;
 	padding: calc(var(--index) * .5) calc(var(--index) * 1.15);
-	background-color: transparent;
+	background-color: rgba(80, 80, 80, 0.4);
 	color: #fff;
 	border-radius: 10em;
-	border: rgb(255 255 255 / .0) 3px solid;
+	border: rgba(255, 255, 255, .2) 3px solid;
+	outline: none;
+	cursor: pointer;
+	margin-top: calc(var(--index) * 2.5);
+}
+.button-startkirill {
+	font-family: butab;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: calc(var(--index) * .71);
+	letter-spacing: -.02vw;
+	padding: calc(var(--index) * .5) calc(var(--index) * 1.15);
+	background: rgb(148,148,148,.4);
+	background: linear-gradient(90deg, rgba(148,148,148,.4) 0%, rgba(0,98,95,.4) 100%);
+	color: #fff;
+	border-radius: 10em;
+	border: rgb(255 255 255 / .2) 3px solid;
+	outline: none;
+	cursor: pointer;
+	margin-top: calc(var(--index) * 2.5);
+}
+.button-startfemale {
+	font-family: butab;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: calc(var(--index) * .71);
+	letter-spacing: -.02vw;
+	padding: calc(var(--index) * .5) calc(var(--index) * 1.15);
+	background: rgb(207,207,207,.4);
+	background: linear-gradient(90deg, rgba(207,207,207,.4) 0%, rgba(255,0,164,.4) 100%);
+	color: #fff;
+	border-radius: 10em;
+	border: rgb(255 255 255 / .2) 3px solid;
 	outline: none;
 	cursor: pointer;
 	margin-top: calc(var(--index) * 2.5);
