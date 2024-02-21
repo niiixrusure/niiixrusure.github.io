@@ -9,18 +9,18 @@
 }
 @font-face {
 	font-family: buta;
-	src: url(../fonts/1.ttf);
+	src: url(../fonts/NTSomic-Regular.ttf);
 	font-weight: 900;
 }
 @font-face {
 	font-family: butab;
-	src: url(../fonts/2.ttf);
+	src: url(../fonts/NTSomic-Bold.ttf);
 	font-weight: 900;
 }
 body {
 	background-color: #000;
 	color: #fff;
-	font-family: buta;
+	font-family: Montserrat;
 	cursor: url(../libs/1.cur), default;
 }
 .layers {
@@ -65,6 +65,7 @@ body {
 .hero-content {
 	font-size: calc(var(--index) * 2.9);
 	text-align: center;
+	text-transform: uppercase;
 	letter-spacing: calc(var(--index) * -.15);
 	line-height: 1.35em;
 	margin-top: calc(var(--index) * 22);
@@ -164,12 +165,4 @@ body {
 }
 .soundbutton.paused {
 	opacity: 0.40;
-	filter: grayscale(1);
-}
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
 }
