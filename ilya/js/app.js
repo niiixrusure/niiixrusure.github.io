@@ -43,3 +43,15 @@ window.onfocus = function() {
 window.onblur = function() {
 	audio.pause()
 }
+
+// Mesaage
+
+var image = document.getElementById("message1"); //Выбираем картинку
+setInterval(function(){
+    setTimeout(function(){
+        image.style.display = "block";//скрывем
+        setTimeout(function(){
+            image.style.display = "none";//проявляем
+        },5000);
+    },5000);
+},5000);
