@@ -52,6 +52,6 @@ setInterval(function(){
         image.style.display = "block";//скрывем
         setTimeout(function(){
             image.style.display = "none";//проявляем
-        },1000);
+        },1);
     },10000);
-},1000);
+},1);
