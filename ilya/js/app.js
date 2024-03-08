@@ -47,6 +47,6 @@ window.onblur = function() {
 // Mesaage
 
 var image = document.getElementById("message1"); //Выбираем картинку
-    setTimeout(function(){
-        image.style.display = "none";//скрывем
-    },10000);
+setTimeout(function(){
+	document.getElementById('message1').style.display = 'none';
+}, 10000);
