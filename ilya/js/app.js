@@ -50,8 +50,5 @@ var image = document.getElementById("message1"); //Выбираем картин
 setInterval(function(){
     setTimeout(function(){
         image.style.display = "block";//скрывем
-        setTimeout(function(){
-            image.style.display = "none";//проявляем
         },1);
     },10000);
-},1);
