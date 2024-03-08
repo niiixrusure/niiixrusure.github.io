@@ -129,7 +129,7 @@ video.frame-media_left {
 	bottom: 5vh;
 	right: 5vw;
 	cursor: pointer;
-	width: 230px;
+	width: 100px;
 	transition: .25s ease;
 	cursor: crosshair;
 }
