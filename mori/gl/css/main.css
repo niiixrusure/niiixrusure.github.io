@@ -96,3 +96,11 @@ body {
 	z-index: 100;
 	margin: 0 .45vw;
 }
+.disk1 {
+	position: fixed;
+	bottom: 5vh;
+	right: 5vw;
+	cursor: pointer;
+	width: 224px;
+	transition: .25s ease;
+}
