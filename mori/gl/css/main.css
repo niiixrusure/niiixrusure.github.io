@@ -22,6 +22,7 @@ body {
 	perspective: calc(var(--index) * 35);
 }
 .item {
+	border-radius: 5px;
 	background-color: #222;
 	width: calc(var(--index) * 3);
 	height: calc(var(--index) * 12);
