@@ -8,7 +8,7 @@
 	--transition: cubic-bezier(.1, .7, 0, 1);
 }
 body {
-	background-color: #dadada;
+	background-color: #ff5b5b;
 }
 .wrapper {
 	display: flex;
@@ -23,7 +23,7 @@ body {
 }
 .item {
 	border-radius: 5px;
-	background-color: #222;
+	background-color: #dadada;
 	width: calc(var(--index) * 3);
 	height: calc(var(--index) * 12);
 	background-size: cover;
@@ -102,6 +102,6 @@ body {
 	bottom: 5vh;
 	right: 5vw;
 	cursor: pointer;
-	width: 324px;
+	width: 524px;
 	transition: .25s ease;
 }
