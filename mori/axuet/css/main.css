@@ -7,24 +7,28 @@
 	--index: calc(1vw + 1vh);
 }
 @font-face {
+	font-family: rf;
+	src: url(../fonts/rf.otf);
+}
+@font-face {
+	font-family: rfb;
+	src: url(../fonts/rfb.otf);
+}
+@font-face {
 	font-family: sf;
 	src: url(../fonts/sf.woff2);
 }
 @font-face {
-	font-family: sfl;
-	src: url(../fonts/sfl.woff2);
-}
-@font-face {
-	font-family: sfh;
-	src: url(../fonts/sfh.woff2);
+	font-family: sfr;
+	src: url(../fonts/sfr.woff2);
 }
 body {
-	font-family: sfh;
-	color: #fff;
+	font-family: rfb;
+	color: #bebebe;
 	overflow-x: hidden;
 }
 .scene {
-	height: 550vh;
+	height: 350vh;
 }
 .layer {
 	height: 100vh;
@@ -55,7 +59,7 @@ body {
 
 .layer:nth-child(5) {
 	opacity: 0;
-	animation-range: 250vh 300vh;
+	animation-range: 100vh 200vh;
 	animation-name: animation-end;
 }
 @keyframes animation-end { to { opacity: 1; } }
@@ -67,7 +71,7 @@ body {
 	animation-timeline: scroll();
 	animation-timing-function: linear;
 	animation-fill-mode: both;
-	animation-range: 0 45vh;
+	animation-range: 0 100vh;
 	animation-name: animation-head;
 }
 @keyframes animation-head { to { opacity: 0; filter: blur(20px); } }
@@ -76,18 +80,36 @@ body {
 	text-transform: uppercase;
 	font-size: calc(var(--index) * 4.5);
 	text-align: center;
-	line-height: .9em;
+	line-height: .7em;
 	letter-spacing: -.15vw;
 }
-.layer__end h3 {
+.layer__content h2 {
 	font-family: sf;
+	font-size: calc(var(--index) * 1.2);
+	text-align: center;
+	line-height: .7em;
+	letter-spacing: -.15vw;
+	opacity: .45;
+}
+.layer__content h5 {
+	font-family: sfr;
+	font-size: calc(var(--index) * 1.2);
+	background: linear-gradient(45deg,  #fbff20, #ffc400, #000000);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: #0B2349;
+	text-align: center;
+	line-height: 1.7em;
+}
+.layer__end h3 {
+	font-family: sfr;
 	cursor: pointer;
 	font-size: 2rem;
 	position: relative;
 	text-align: center;
 }
 .layer__end h4 {
-	font-family: sfl;
+	font-family: sf;
 	cursor: pointer;
 	font-size: 2rem;
 	position: relative;
@@ -96,14 +118,14 @@ body {
 }
 .layer__end::before {
 	content: '';
-	background-color: #010B19;
+	background-color: #2c2c2c;
 	inset: 0;
 	position: absolute;
 	opacity: 0;
 	animation-timeline: scroll();
 	animation-timing-function: linear;
 	animation-fill-mode: both;
-	animation-range: 300vh 450vh;
+	animation-range: 100vh 110vh;
 	animation-name: animation-bg;
 }
 @keyframes animation-bg { to { opacity: 1; } }
@@ -113,9 +135,14 @@ body {
 	bottom: 5vh;
 	right: 5vw;
 	cursor: pointer;
-	width: 350px;
+	width: 270px;
 	transition: .25s ease;
 }
 a, button /* &c... */ {
     all: unset;
+}
+.l {
+	color: #777777;
+	position: fixed;
+	width: 36px;
 }
