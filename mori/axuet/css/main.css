@@ -94,7 +94,7 @@ body {
 .layer__end h4 {
 	font-family: Mori Sans1;
 	cursor: pointer;
-	font-size: 2rem;
+	font-size: 25px;
 	position: relative;
 	text-align: center;
 	opacity: .45;
