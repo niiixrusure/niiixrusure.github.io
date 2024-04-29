@@ -7,15 +7,19 @@
 	--index: calc(1vw + 1vh);
 }
 @font-face {
-	font-family: Mori Sans1;
+	font-family: Mori Sans;
 	src: url(../fonts/Mori\ Sans.woff2);
 }
 @font-face {
-	font-family: Mori Sans2;
-	src: url(../fonts/Mori\ Sans\ Bold.woff2);
+	font-family: Mori SansLt;
+	src: url(../fonts/Mori\ Sans\ LT.woff2);
+}
+@font-face {
+	font-family: Mori SansMd;
+	src: url(../fonts/Mori\ Sans\ MED.woff2);
 }
 body {
-	font-family: Mori Sans2;
+	font-family: Mori Sans;
 	color: #ffffff;
 	overflow-x: hidden;
 }
@@ -69,31 +73,26 @@ body {
 @keyframes animation-head { to { opacity: 0; filter: blur(20px); } }
 
 .layer__content h1 {
+	color: #03132d;
+	font-family: Mori Sans;
 	text-transform: uppercase;
-	font-size: calc(var(--index) * 4.5);
-	text-align: center;
-	line-height: .7em;
-	letter-spacing: -.15vw;
-}
-.layer__content h2 {
-	font-family: Mori Sans1;
-	font-size: calc(var(--index) * 1.2);
-	text-align: center;
-	line-height: .7em;
-	letter-spacing: -.15vw;
-	opacity: .45;
+	font-size: calc(var(--index) * 0.8);
+	text-align: left;
+	line-height: 1.0em;
+	letter-spacing: -.01vw;
 }
 
 .layer__end h3 {
-	font-family: Mori Sans2;
+	font-family: Mori SansLT;
 	cursor: pointer;
-	font-size: 2rem;
+	font-size: 1.4rem;
 	position: relative;
 	text-align: center;
 }
 .layer__end h4 {
-	font-family: Mori Sans1;
-	font-size: 22px;
+	font-family: Mori SansLT;
+	cursor: pointer;
+	font-size: 1.1rem;
 	position: relative;
 	text-align: center;
 	opacity: .45;
