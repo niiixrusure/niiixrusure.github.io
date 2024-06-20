@@ -31,6 +31,15 @@ body {
 	margin: 10px auto 20px;
     display: block;
 }
+
+.listvr {
+	width: 80%;
+	height: 80%;
+	margin: 10px auto 20px;
+    display: block;
+	border-radius: 50px;
+}
+
 .gallery {
 	transform-style: preserve-3d;
 	height: 100%;
