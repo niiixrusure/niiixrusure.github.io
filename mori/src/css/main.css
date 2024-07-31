@@ -22,7 +22,7 @@ body::-webkit-scrollbar {
 
 }
 body {
-	background-color: #555555;
+	background-color: #000;
 	color: #fff;
 	font-size: calc(var(--index) * .8);
 	font-family: raleway_c, sans-serif;
