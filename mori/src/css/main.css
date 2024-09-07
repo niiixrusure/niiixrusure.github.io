@@ -1,0 +1,53 @@
+
+/* Скрываем Scrollbar */
+body {
+	scrollbar-width: none; /* Firefox */
+}
+body::-webkit-scrollbar { 
+	display: none;
+}
+
+body {
+	background-color: #FBFBFB;
+	color: #fff;
+	overflow: hidden;
+	transition: transform 1000ms;
+	font-size: calc(var(--index) * .8);
+	font-family: raleway_c, sans-serif;
+	line-height: 1.75;
+	height: var(--depth);
+	font-weight: 300;
+}
+.container {
+	width: 100%;
+	height: 100%;
+	perspective: 1500px;
+}
+
+.frame {
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.vida {
+
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+	border-radius: 20px;
+}
+
+.sbutton {
+	position: fixed;
+	bottom: 5vh;
+	right: 5vw;
+	cursor: pointer;
+	width: 24px;
+	transition: .25s ease;
+}
+.sbutton.pd {
+	opacity: .25;
+}
