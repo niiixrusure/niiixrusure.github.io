@@ -24,9 +24,10 @@
 	src: url(../fonts/Poppins-Black.ttf);
 }
 body {
+	background: #ab9b87;
 	color: #ffffffaf;
 	font-family: pblk;
-	cursor: url(../libs/c2.png), default;
+	cursor: url(../libs/cс.png), default;
 }
 html {
 	background-color: rgb(0, 0, 0);
