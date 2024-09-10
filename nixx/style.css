@@ -61,6 +61,7 @@ html {
     cubic-bezier(0.175, 0.885, 0.6, 1);
 }
 .info{
+  text-decoration: none;
   font-family: Golos Text, sans-serif;
   font-weight: 600;
   text-align: left;
