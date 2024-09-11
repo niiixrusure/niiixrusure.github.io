@@ -1,58 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
-    <meta
-      http-equiv="X-UA-Compatible"
-      content="ie=edge"
-    />
-    <link
-      rel="stylesheet"
-      href="style.css"
-    />
-    <link
-      rel="shortcut icon"
-      href="favicon.ico"
-      type="image/x-icon"
-    />
-    <script src="app.js"></script>
-    <title>Mori GitHub</title>
-  </head>
-  <body>
-      </div>
-      <video autoplay muted loop id="myVideo">
-        <source src="" type="video/mp4">
-      </video>
-    <div id="container">
-    <div class="container" >
-      <h1 class="site-name">
-        Mori GitHub Page
-      </h1>
-    <div class="info">
-      <p class="description1">
-        Обо мне
-      </p>
-      <p class="description2">Илья, 22 года, 191 см, 69 кг • FullStack</p>
-    </div>
-    <a class="info" href="https://t.me/passtta">
-      <p class="description1">
-        Telegram
-      </p>
-      <p class="description2">Перейти</p></a>
+<html lang="ru">
+<head>
+	<style type="text/css">
+		a:link, a:visited { color:#ffffff; }
+		</style>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <a class="info" href="https://github.com/niiixrusure/niiixrusure.github.io">
-      <p class="description1">
-        GitHub
-      </p>
-      <p class="description2">Перейти</p></a>
-    </div>
-    </div>
-    </div>
-    </div>
-    </main>
-  </body>
+	<!-- Главная страница. v 1.5  -->
+
+	<!-- Титл -->
+	<title>Главная</title>
+
+	<!-- Подключение стилей и скриптов -->
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/app.js" defer></script>
+	<script src="libs/rain.js" defer></script>
+	<link rel="stylesheet" href="css/bimbim.css">
+</head>
+<body>
+
+	<!-- Текст сверху  (Авторы) -->
+	<div class="author">
+	</div>
+	
+	<!-- Слои -->
+	
+	<section class="layers">
+		
+		<!-- Контейнер -->
+		
+		<div class="layers__container">
+			<div class="layers__item layer-1" style="background-image: url(img);"></div>
+			<div class="layers__item layer-2" style="background-image: url(img);"></div>
+			<div class="layers__item layer-3">
+				<div class="hero-content">					
+					<h1>❤︎</h1>
+					<div class="hero-content__p"></div>
+					<a href="nix/index.html"><button class="button-start">NIX</button></a>
+					<a href="nixx/index.html"><button class="button-start">MORI</button></a>
+					<a href="zhelly/index.html"><button class="button-start">ZHELLY</button></a>
+					<a href="lily/index.html"><button class="button-start">LL</button></a>
+					<div class="hero-content__s"></div>
+				</div>
+				</div>
+					
+				</div>
+			</div>
+			<div class="layers__item layer-4">
+				<canvas class="rain"></canvas>
+			</div>
+			<div class="layers__item layer-5" style="background-image: url(img/layer-png);"></div>
+			<div class="layers__item layer-6" style="background-image: url(img/layerpng);"></div>
+
+			<!-- (Слои с 2 по 6 не работают т.к нет контента) -->
+			
+		</div>
+	</section>
+
+	<!-- Кнопа мута медиа -->
+	
+	<img id='pidor' class="soundbutton">
+	<audio class="audio" src="ilusha/media/Lethal Company Soundtrack - Icecream Song.mp3" loop></audio>
+
+</body>
 </html>

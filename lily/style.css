@@ -1,0 +1,25 @@
+@font-face {
+  font-family: lilyr;
+  src: url("res/fonts/NTSomic-Regular.ttf");
+}
+@font-face {
+  font-family: lilyb;
+  src: url("res/fonts/NTSomic-Bold.ttf");
+}
+.idk {
+  font-size: xx-large;
+  font-family: lilyb, sans-serif;
+}
+body {
+  background-color: #4f1b80;
+  color: #f6a9fc;
+  text-align: center;
+}
+img {
+  width: 30%;
+  height: 30%;
+}
+.reg {
+  font-family: lilyr, sans-serif;
+  font-size: large;
+}

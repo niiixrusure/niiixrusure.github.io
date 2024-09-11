@@ -1,0 +1,50 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #141b1e;
+}
+
+.title {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	transition: .2s all;
+	font-family: "Helvetica";
+	color: #dadada;
+}
+
+h1 {font-size: 100px;}
+
+/* i hate this */
+.layer1, .layer2 {
+	position: absolute;
+	transition: .2s;
+	user-select: none;
+}
+
+.layer1 {z-index: 2;}
+.layer2 {z-index: 1; color: #8ccf7e;}
+
+.layer1:hover + .layer2, .layer2:hover {
+	transform: translate(4%, 4%);
+	transition: .2s all;
+}
+
+.contacts {
+	position: relative;
+	font-size: 24px;
+}
+
+.contacts {
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+
+	margin-bottom: 10px;
+	margin-right: 10px;
+	
+	right: 0;
+}
