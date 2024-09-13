@@ -67,7 +67,7 @@ html {
   text-align: left;
 	font-size: calc(var(--index) * 0.8);
 	padding: calc(var(--index) * .8) calc(var(--index) * 1.2);
-	background-color: #ff88005b;
+	background-color: #d3a66580;
   backdrop-filter: blur(10px);
 	color: #fff;
 	border-radius: 20px;
