@@ -1,0 +1,16 @@
+html{
+    background-color: #E5E5E5;
+}
+    .container {
+      display: grid;
+      gap: 4px;
+    }
+
+    .soundbutton {
+        cursor: pointer;
+        transition: .25s ease;
+    }
+    .soundbutton.paused {
+        background-color: transparent;
+    }
+    
