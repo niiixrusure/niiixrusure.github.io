@@ -5,7 +5,7 @@
 Мы рады видеть тебя на странице нашего репозитория.
 
 > ## Список обновлений
-05.11.24 ![](https://shields.io/badge/\v.1-090909?style=for-the-badge&logo=&logoColor=white) Шаблон  <a href="[https://www.maxon.net/en/about-maxon](https://zentry.com/)"><u>Подробнее</u></a>
+05.11.24 ![](https://shields.io/badge/\v.1-090909?style=for-the-badge&logo=&logoColor=white) <a href="https://zentry.com/"><u>Шаблон</u></a>
 <br>
 Теперь используется биллинг панель - mangobill.ge
 - Были отрендерены фреймы страниц
