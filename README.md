@@ -7,7 +7,8 @@
 > ## Список обновлений
 05.11.24 ![](https://shields.io/badge/\v.1-090909?style=for-the-badge&logo=&logoColor=white)
 <br>
-Теперь используется биллинг панель - mangobill.ge
+Что нового ?
+- Теперь используется биллинг панель - mangobill.ge
 - Были отрендерены фреймы страниц
 - Подготовка анимаций для WebGL <a href="https://www.maxon.net/en/about-maxon"><u>Подробнее</u></a> <a href="https://zentry.com/"><u>Шаблон</u></a>
 - Сделаны модальные окна
