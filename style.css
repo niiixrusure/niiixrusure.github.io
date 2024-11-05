@@ -1,13 +1,42 @@
-html{
-    background-color: #E5E5E5;
+* {
+    margin: 0;
+    padding: 0;
+  }
+  :root {
+	--index: calc(1vw + 1vh);
+	--transition: .75s cubic-bezier(.075, .5, 0, 1)
 }
-    .container {
+  
+/* Скрываем Scrollbar */
+body {
+	scrollbar-width: none; /* Firefox */
+}
+body::-webkit-scrollbar { 
+	display: none; /* Safari and Chrome */
+}
+
+  body,
+  html {
+    height: 100%;
+    background-color: #549E65;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+    .frame_content {
       display: grid;
       gap: 4px;
     }
-
     .soundbutton {
+        position: fixed;
+        bottom: 5vh;
+        right: 5vw;
         cursor: pointer;
+        width: calc(var(--index) * 5.9);;
         transition: .25s ease;
     }
     .soundbutton.paused {
