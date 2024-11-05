@@ -10,6 +10,8 @@
 Что нового ?
 - Теперь используется биллинг панель - mangobill.ge
 - Были отрендерены фреймы страниц
-- Подготовка анимаций для WebGL <a href="https://www.maxon.net/en/about-maxon"><u>Подробнее</u></a>
+- Подготовка анимаций для WebGL
 - Сделаны модальные окна
 - Пытаемся связать Mongo с GitHub
+
+ <a href="https://niiixrusure.github.io/tehy.html"><button><u>Потестить</u></button></a>
