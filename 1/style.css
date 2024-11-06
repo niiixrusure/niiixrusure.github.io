@@ -20,21 +20,16 @@
   font-weight: normal;
 }
 
-/* width */
-::-webkit-scrollbar {
-  width: 3px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: transparent; 
+/* Скрываем scrollbar для Chrome, Safari и Opera */
+.example::-webkit-scrollbar {
+  display: none;
 }
  
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #ffffff25; 
+/* Скрываем scrollbar для IE, Edge и Firefox */
+.example {
+  -ms-overflow-style: none;  /* IE и Edge */
+  scrollbar-width: none;  /* Firefox */
 }
-
 
 :root {
   --gap: 0.5em;
@@ -141,17 +136,19 @@ button:hover{
 
 
 .framecontent{
-  max-width: 450px;
-  max-height: 650px;
-  min-width: 330px;
-  min-height: 530px;
-  overflow-x: hidden;
-  overflow-y: auto;
-word-wrap: break-word;
-  width: calc(var(--index) * 10.2);
-  height: calc(var(--index) * 18.2);
-  padding: calc(var(--index) * .7) calc(var(--index) * 1.8);
-  background-color: #665f5862;
-  backdrop-filter: blur(33px);
-  margin: 1.75em;
+    border-radius: 2em;
+    border: 1px solid #ffffff29;
+    max-width: 450px;
+    max-height: 650px;
+    min-width: 330px;
+    min-height: 530px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    word-wrap: break-word;
+    width: calc(var(--index)* 10.2);
+    height: calc(var(--index)* 18.2);
+    padding: calc(var(--index)* .7) calc(var(--index)* 1.8);
+    background-color: #bdac9b62;
+    backdrop-filter: blur(13px);
+    margin: 1.75em;
 }
