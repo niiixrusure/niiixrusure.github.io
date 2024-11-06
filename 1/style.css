@@ -20,16 +20,21 @@
   font-weight: normal;
 }
 
-/* Скрываем scrollbar для Chrome, Safari и Opera */
-.example::-webkit-scrollbar {
-  display: none;
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent; 
 }
  
-/* Скрываем scrollbar для IE, Edge и Firefox */
-.example {
-  -ms-overflow-style: none;  /* IE и Edge */
-  scrollbar-width: none;  /* Firefox */
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffffff25; 
 }
+
 
 :root {
   --gap: 0.5em;
@@ -38,13 +43,37 @@
 }
 
     html {
-      background-image: url(https://images.unsplash.com/photo-1730472528705-d91d6088b7a9?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+      background-image: url(https://images.unsplash.com/photo-1729830374987-977a8982ea5e?q=80&w=1915&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
-      height: 100vh;
+      height: 95vh;
       color-scheme: dark;
     }
+
+    .video-background {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -1000;
+      overflow: hidden;
+  }
+  
+  #myVideo {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -1000;
+      transform: translateX(-50%) translateY(-50%);
+  }
 
     body {
       min-height: 100%;
@@ -136,23 +165,17 @@ button:hover{
 
 
 .framecontent{
-    border-radius: 2em;
-    border: 1px solid #ffffff29;
-    max-width: 450px;
-    max-height: 650px;
-    min-width: 330px;
-    min-height: 530px;
-    overflow-x: hidden;
-    overflow-y: auto;
-    word-wrap: break-word;
-    width: calc(var(--index)* 10.2);
-    height: calc(var(--index)* 18.2);
-    padding: calc(var(--index)* .7) calc(var(--index)* 1.8);
-    background-color: #bdac9b62;
-    backdrop-filter: blur(13px);
-    margin: 1.75em;
-  .example::-webkit-scrollbar {
-  display: none;
-      -ms-overflow-style: none;  /* IE и Edge */
-  scrollbar-width: none;  /* Firefox */
+  max-width: 450px;
+  max-height: 650px;
+  min-width: 330px;
+  min-height: 530px;
+  overflow-x: hidden;
+  overflow-y: auto;
+word-wrap: break-word;
+  width: calc(var(--index) * 10.2);
+  height: calc(var(--index) * 18.2);
+  padding: calc(var(--index) * .7) calc(var(--index) * 1.8);
+  background-color: #665f5862;
+  backdrop-filter: blur(33px);
+  margin: 1.75em;
 }
