@@ -151,4 +151,8 @@ button:hover{
     background-color: #bdac9b62;
     backdrop-filter: blur(13px);
     margin: 1.75em;
+  .example::-webkit-scrollbar {
+  display: none;
+      -ms-overflow-style: none;  /* IE и Edge */
+  scrollbar-width: none;  /* Firefox */
 }
