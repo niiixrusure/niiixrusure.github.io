@@ -30,7 +30,7 @@ body::-webkit-scrollbar {
 	font-weight: 100;
 }
 body {
-	background-color: #161616;
+	background-color: #D9D9D9;
 	color: #fff;
 	font-size: calc(var(--index) * .8);
 	font-family: raleway_c, sans-serif;
@@ -61,9 +61,9 @@ body {
 	bottom: 5vh;
 	right: 5vw;
 	cursor: pointer;
-	width: 24px;
+	width: 226px;
 	transition: .25s ease;
 }
 .soundbutton.paused {
-	opacity: .25;
+	
 }
