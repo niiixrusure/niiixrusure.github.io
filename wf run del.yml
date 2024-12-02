@@ -1,0 +1,2 @@
+              - name: Workflow runs delete
+                uses: InfraWay/delete-workflow-runs@v2.1.2
