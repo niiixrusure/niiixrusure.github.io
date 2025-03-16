@@ -64,13 +64,11 @@ html {
 }
 h1 {
 	color: rgba(255, 255, 255, 0.226);
-	transition: all 1400ms  cubic-bezier(.29, 1.01, 1, -0.68);
 	cursor: url(../libs/c1.png), pointer;
 }
 h1:hover {
 	color:#db2a2a;
 	font-size: calc(var(--index) * 3.1);
-	transition: all 400ms  cubic-bezier(.29, 1.01, 1, -0.68);
 }
 .layer-4 {
 	transform: translateZ(190px) scale(.9);
