@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Адаптивная страница</title>
+    <style>
+        /* Основные стили */
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-color: #F3E8F2; /* начальный фон */
+            display: flex;
+            justify-content: center; /* выравнивание по горизонтали */
+            align-items: flex-start; /* выравнивание по вертикали сверху */
+            transition: background-color 0.3s ease;
+        }
+
+        .container {
+            max-width: 1142px;
+            width: 100%;
+            margin-top: 5vh; /* отступ сверху */
+            text-align: center;
+        }
+
+        .image {
+            width: 100%;
+            height: auto;
+            max-width: 100%;
+            transition: background-image 0.3s ease;
+        }
+
+        /* Стиль для фона и изображения после 18:00 */
+        .night {
+            background-color: #423841; /* ночной фон */
+        }
+
+        .night .image {
+            background-image: url('./nm.svg'); /* ночное изображение */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img id="adaptive-image" class="image" src="./dm.svg" alt="Дневное изображение">
+    </div>
+
+    <script>
+        // Функция для проверки времени и изменения фона/изображений
+        function updateBackground() {
+            const currentTime = new Date().getHours();
+            const body = document.body;
+            const image = document.getElementById('adaptive-image');
+
+            if (currentTime >= 18) {
+                body.classList.add('night');
+                image.src = './nm.svg'; // Заменить на ночное изображение
+            } else {
+                body.classList.remove('night');
+                image.src = './dm.svg'; // Заменить на дневное изображение
+            }
+        }
+
+        // Обновляем фон при загрузке страницы
+        updateBackground();
+
+        // Обновляем каждый час
+        setInterval(updateBackground, 3600000); // Проверка каждый час
+    </script>
+</body>
+</html>
