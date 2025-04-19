@@ -1,0 +1,147 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	letter-spacing: initial;
+}
+:root {
+	--index: calc(1vw + 1vh);
+	--transition: 1.5s cubic-bezier(.05, .5, 0, 1);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
+
+@font-face {
+	font-family: ntb;
+	src: url(../fonts/NTSomic-Bold.ttf);
+}
+@font-face {
+	font-family: pbld;
+	src: url(../fonts/NTSomic-Bold.ttf);
+}
+@font-face {
+	font-family: pblk;
+	src: url(../fonts/Poppins-Black.ttf);
+}
+body {
+	background: #ab9b87;
+	color: #ffffffaf;
+	font-family: pblk;
+	cursor: url(../libs/cс.png), default;
+}
+html {
+	background-color: rgb(0, 0, 0);
+  }
+.layers {
+	perspective: 1000px;
+	overflow: hidden;
+}
+.layers__container {
+	height: 100vh;
+	min-height: 500px;
+	transform-style: preserve-3d;
+	transform: rotateX(var(--move-y)) rotateY(var(--move-x));
+	will-change: transform;
+	transition: transform var(--transition);
+}
+.layers__item {
+	position: absolute;
+	inset: -5vw;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.layer-1 {
+	transform: translateY(-15px) translateZ(-55px) scale(1.7);
+}
+.layer-2 {
+	transform: translateZ(80px) scale(.88);
+}
+.layer-3 {
+	transform: translateZ(180px) scale(.8);
+}
+h1 {
+	color: rgba(255, 255, 255, 0.226);
+	cursor: url(../libs/c1.png), pointer;
+}
+h1:hover {
+	color:#db2a2a;
+	font-size: calc(var(--index) * 3.1);
+}
+.layer-4 {
+	transform: translateZ(190px) scale(.9);
+}
+.layer-5 {
+	transform: translateZ(300px) scale(.9);
+}
+.layer-6 {
+	transform: translateZ(380px);
+}
+.layer-4, .layer-5, .layer-6 {
+	pointer-events: none;
+}
+
+.hero-content {
+	font-size: calc(var(--index) * 2.9);
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 1.35em;
+}
+.hero-content span {
+	display: block;
+}
+.hero-content__p {
+	text-transform: none;
+	font-family: "buta";
+	letter-spacing: normal;
+	font-size: calc(var(--index) * .73);
+	line-height: 3;
+}
+.button-start {
+	font-family: ntb;
+	font-size: calc(var(--index) * .8);
+	letter-spacing: -.0vw;
+	padding: calc(var(--index) * .4) calc(var(--index) * 1.15);
+	background-color: rgb(255, 255, 255, 0.1);
+	color: #ffffff6c;
+	border-radius: 1em;
+	border: rgba(255, 255, 255, 0) 1px solid;
+	outline: none;
+	margin-top: calc(var(--index) * 0.5);
+	transition: all 1200ms cubic-bezier(0.075, 0.500, 0.000, 1.000);
+	cursor: url(../libs/cc.png), pointer;
+}
+
+.button-start:hover{
+	font-family: ntb;
+	padding: calc(var(--index) * .5) calc(var(--index) * 1.25);
+	font-size: calc(var(--index) * .9);
+	background-color: rgb(255, 255, 255, 0.3);
+	color: #ffffff93;
+	border: rgba(255, 255, 255, 0.5) 1px solid;
+	backdrop-filter: blur(40px);
+	box-shadow: 0px 0px 200px rgba(255, 255, 255, 0.5);
+	transition: all 400ms cubic-bezier(0.075, 0.500, 0.000, 1.000);
+}
+
+#pidor{
+    position: fixed;
+    bottom: 5vh;
+    right: 5vw;
+    cursor: pointer;
+    width: 65px;
+    transition: .50s ease;
+}
+.soundbutton {
+	position: fixed !important;
+	bottom: 6vh !important;
+	right: 6vw !important;
+	cursor: pointer !important;
+	width: 80px !important;
+	transition: .50s ease !important;
+}
+.soundbutton.paused {
+	opacity: 0.40;
+}
