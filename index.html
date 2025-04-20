@@ -16,8 +16,6 @@
       width: 100%;
       height: 100%;
       font-family: 'Inter', sans-serif;
-      background: black;
-      overflow: hidden;
     }
 
     #preloader {
@@ -25,53 +23,35 @@
       z-index: 9999;
       width: 100%;
       height: 100%;
+      background: url('./Group\ 23.png') no-repeat center center;
+      background-size: cover;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       transition: opacity 0.5s ease, visibility 0.5s ease;
-      color: #fff;
+      color: #000;
+      padding: 20px;
     }
 
     #preloader.hidden {
       opacity: 0;
       visibility: hidden;
-      pointer-events: none;
-    }
-
-    .video-background {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
-      overflow: hidden;
-      z-index: -1;
-    }
-
-    .video-background iframe {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%) scale(1.5);
-      width: 100vw;
-      height: 56.25vw; /* 16:9 aspect ratio */
-      min-height: 100vh;
-      pointer-events: none;
     }
 
     .loader-container {
-      background: rgba(0, 0, 0, 0.5);
+      background: rgba(255, 255, 255, 0.027);
       padding: 20px 30px;
-      border-radius: 16px;
+      border: 1px solid #ffffff25;
+      border-radius: 12px;
       display: flex;
       flex-direction: column;
       align-items: center;
       backdrop-filter: blur(5px);
-      z-index: 1;
     }
 
     .loading-text {
+        color: #ffffff;
       font-size: 1.2rem;
       margin-bottom: 10px;
     }
@@ -79,8 +59,8 @@
     .spinner {
       width: 20px;
       height: 20px;
-      border: 2px solid #ccc;
-      border-top: 2px solid #fff;
+      border: 2px solid #ffffff;
+      border-top: 2px solid #ffffff25;
       border-radius: 50%;
       animation: spin 1s linear infinite;
     }
@@ -98,15 +78,15 @@
       font-size: 0.9rem;
       font-family: 'Inter', sans-serif;
       font-weight: 500;
-      color: #fff;
-      background: rgba(0, 0, 0, 0.5);
+      color: #ffffff52;
+      background:transparent;
       padding: 8px 16px;
       border-radius: 12px;
     }
 
     .old-version a {
       text-decoration: none;
-      color: #fff;
+      color: #ffffff;
       font-weight: 500;
     }
 
@@ -114,7 +94,7 @@
       text-decoration: underline;
     }
 
-    iframe#main-frame {
+    iframe {
       width: 100%;
       height: 100%;
       border: none;
@@ -129,15 +109,10 @@
 <body>
 
   <div id="preloader">
-    <div class="video-background">
-      <div id="yt-player"></div>
-    </div>
-
     <div class="loader-container">
       <div class="loading-text" id="loadingText">Loading...</div>
       <div class="spinner"></div>
     </div>
-
     <div class="old-version">
       Старая версия доступна в директории <a href="https://github.com/niiixrusure/niiixrusure.github.io/tree/main/oldhtml" target="_blank">/oldhtml</a>
     </div>
@@ -145,52 +120,13 @@
 
   <iframe id="main-frame" src="https://kzmquf9uzes3zo3u4mt2.lite.vusercontent.net/"></iframe>
 
-  <script src="https://www.youtube.com/iframe_api"></script>
   <script>
-    let player;
-    const videoId = 'FbMXy5TvXPM';
-    const STORAGE_KEY = 'ytVideoTime';
-
-    function onYouTubeIframeAPIReady() {
-      const savedTime = parseFloat(localStorage.getItem(STORAGE_KEY)) || 0;
-      player = new YT.Player('yt-player', {
-        videoId: videoId,
-        playerVars: {
-          autoplay: 1,
-          mute: 1,
-          controls: 0,
-          modestbranding: 1,
-          showinfo: 0,
-          rel: 0,
-          loop: 1,
-          playlist: videoId,
-          playsinline: 1,
-        },
-        events: {
-          onReady: event => {
-            event.target.seekTo(savedTime, true);
-            event.target.playVideo();
-
-            // Save position every second
-            setInterval(() => {
-              const currentTime = player.getCurrentTime();
-              localStorage.setItem(STORAGE_KEY, currentTime);
-            }, 1000);
-
-            // Show main frame after short delay
-            setTimeout(() => {
-              document.getElementById("preloader").classList.add("hidden");
-              document.getElementById("main-frame").classList.add("visible");
-            }, 3000);
-          }
-        }
-      });
-    }
-
     document.addEventListener("DOMContentLoaded", () => {
       const userLang = navigator.language || navigator.userLanguage || "en";
       const lang = userLang.slice(0, 2).toLowerCase();
       const loadingText = document.getElementById("loadingText");
+      const preloader = document.getElementById("preloader");
+      const iframe = document.getElementById("main-frame");
 
       const isFirstVisit = !localStorage.getItem("visitedBefore");
       localStorage.setItem("visitedBefore", "true");
@@ -216,6 +152,13 @@
 
       const t = translations[lang] || translations["en"];
       loadingText.textContent = isFirstVisit ? t.connecting : t.updating;
+
+      window.addEventListener('load', () => {
+        setTimeout(() => {
+          preloader.classList.add('hidden');
+          iframe.classList.add('visible');
+        }, 1000);
+      });
     });
   </script>
 
