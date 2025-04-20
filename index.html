@@ -79,7 +79,7 @@
       font-family: 'Inter', sans-serif;
       font-weight: 500;
       color: #ffffff52;
-      background:transparent;
+      background: transparent;
       padding: 8px 16px;
       border-radius: 12px;
     }
@@ -134,30 +134,46 @@
       const translations = {
         ru: {
           connecting: "Подключение к серверу",
-          updating: "Обновление данных"
+          updating: "Обновление данных",
+          error: "Ошибка загрузки. Попробуйте позже."
         },
         en: {
           connecting: "Connecting to server",
-          updating: "Updating data"
+          updating: "Updating data",
+          error: "Loading error. Please try again later."
         },
         de: {
           connecting: "Verbindung zum Server",
-          updating: "Daten werden aktualisiert"
+          updating: "Daten werden aktualisiert",
+          error: "Ladefehler. Bitte später erneut versuchen."
         },
         fr: {
           connecting: "Connexion au serveur",
-          updating: "Mise à jour des données"
+          updating: "Mise à jour des données",
+          error: "Erreur de chargement. Veuillez réessayer plus tard."
         }
       };
 
       const t = translations[lang] || translations["en"];
       loadingText.textContent = isFirstVisit ? t.connecting : t.updating;
 
+      let loadTimeout;
+
+      const timeoutDuration = 10000; // 10 seconds
+      loadTimeout = setTimeout(() => {
+        loadingText.textContent = t.error; // Display error after timeout
+      }, timeoutDuration);
+
       window.addEventListener('load', () => {
+        clearTimeout(loadTimeout);
         setTimeout(() => {
           preloader.classList.add('hidden');
           iframe.classList.add('visible');
         }, 1000);
+      });
+
+      iframe.addEventListener('error', () => {
+        loadingText.textContent = t.error; // Display error on iframe load failure
       });
     });
   </script>
