@@ -17,6 +17,7 @@
       height: 100%;
       font-family: 'Inter', sans-serif;
       background: black;
+      overflow: hidden;
     }
 
     #preloader {
@@ -30,29 +31,33 @@
       align-items: center;
       transition: opacity 0.5s ease, visibility 0.5s ease;
       color: #fff;
-      overflow: hidden;
     }
 
     #preloader.hidden {
       opacity: 0;
       visibility: hidden;
+      pointer-events: none;
     }
 
     .video-background {
       position: absolute;
       top: 0;
       left: 0;
-      width: 100%;
-      height: 100%;
-      pointer-events: none;
-      z-index: -1;
+      width: 100vw;
+      height: 100vh;
       overflow: hidden;
+      z-index: -1;
     }
 
     .video-background iframe {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) scale(1.5);
       width: 100vw;
-      height: 100vh;
-      object-fit: cover;
+      height: 56.25vw; /* 16:9 aspect ratio */
+      min-height: 100vh;
+      pointer-events: none;
     }
 
     .loader-container {
@@ -63,6 +68,7 @@
       flex-direction: column;
       align-items: center;
       backdrop-filter: blur(5px);
+      z-index: 1;
     }
 
     .loading-text {
@@ -153,20 +159,29 @@
           autoplay: 1,
           mute: 1,
           controls: 0,
-          showinfo: 0,
           modestbranding: 1,
+          showinfo: 0,
+          rel: 0,
           loop: 1,
           playlist: videoId,
-          rel: 0
+          playsinline: 1,
         },
         events: {
           onReady: event => {
             event.target.seekTo(savedTime, true);
             event.target.playVideo();
+
+            // Save position every second
             setInterval(() => {
               const currentTime = player.getCurrentTime();
               localStorage.setItem(STORAGE_KEY, currentTime);
             }, 1000);
+
+            // Show main frame after short delay
+            setTimeout(() => {
+              document.getElementById("preloader").classList.add("hidden");
+              document.getElementById("main-frame").classList.add("visible");
+            }, 3000);
           }
         }
       });
@@ -176,8 +191,6 @@
       const userLang = navigator.language || navigator.userLanguage || "en";
       const lang = userLang.slice(0, 2).toLowerCase();
       const loadingText = document.getElementById("loadingText");
-      const preloader = document.getElementById("preloader");
-      const iframe = document.getElementById("main-frame");
 
       const isFirstVisit = !localStorage.getItem("visitedBefore");
       localStorage.setItem("visitedBefore", "true");
@@ -203,13 +216,6 @@
 
       const t = translations[lang] || translations["en"];
       loadingText.textContent = isFirstVisit ? t.connecting : t.updating;
-
-      window.addEventListener('load', () => {
-        setTimeout(() => {
-          preloader.classList.add('hidden');
-          iframe.classList.add('visible');
-        }, 1000);
-      });
     });
   </script>
 
