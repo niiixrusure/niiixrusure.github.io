@@ -1,0 +1,166 @@
+.header {
+  position: relative;
+  width: 100%;
+  height: 72px;
+  margin: 0 0 0 0;
+  background: #ffffff;
+  z-index: 124;
+  overflow: visible auto;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.nav {
+  position: relative;
+  width: 1280px;
+  height: 72px;
+  margin: 0 0 0 80px;
+  background: rgba(0, 0, 0, 0);
+  z-index: 125;
+}
+
+.div {
+  position: absolute;
+  width: 66px;
+  height: 40px;
+  top: 16px;
+  left: 1199px;
+  background: rgba(0, 0, 0, 0);
+  z-index: 131;
+}
+
+.div-1 {
+  position: absolute;
+  width: 66px;
+  height: 40px;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0);
+  z-index: 132;
+}
+
+.select {
+  position: absolute;
+  width: 66px;
+  height: 40px;
+  top: 0;
+  left: 0;
+  background: #e5e7eb;
+  z-index: 133;
+  border-radius: 8px;
+}
+
+.en {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 22px;
+  height: 40px;
+  top: 0;
+  left: 12.156px;
+  color: #000000;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.16px;
+  text-align: left;
+  text-overflow: ellipsis;
+  z-index: 135;
+  overflow: hidden;
+}
+
+.frame-2 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 8px;
+  left: 34px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-27/W7wGPVhViD.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 134;
+  overflow: hidden;
+}
+
+.frame-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  position: relative;
+  width: 16px;
+  height: 16px;
+  margin: 4px 0 0 8px;
+  z-index: 136;
+  overflow: hidden;
+}
+
+.intun {
+  position: absolute;
+  width: 60.269px;
+  height: 32px;
+  top: 20px;
+  left: 20px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-27/rgeL3rBoYL.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 137;
+  display: block;
+}
+
+.div-4 {
+  position: absolute;
+  width: 420px;
+  height: 24px;
+  top: 24px;
+  left: 430px;
+  background: rgba(0, 0, 0, 0);
+  z-index: 126;
+}
+
+.personality-test,
+.community,
+.about-us,
+.resources {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 20px;
+  top: 2px;
+  color: #4b5563;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  white-space: nowrap;
+  text-decoration: none;
+  position: absolute;
+}
+
+.personality-test {
+  left: 195px;
+  z-index: 129;
+}
+
+.community {
+  left: 338px;
+  z-index: 130;
+}
+
+.about-us {
+  left: 0;
+  z-index: 127;
+}
+
+.resources {
+  left: 100px;
+  z-index: 128;
+}
+
+.personality-test:hover,
+.community:hover,
+.about-us:hover,
+.resources:hover {
+  color: #4f46e5;
+}

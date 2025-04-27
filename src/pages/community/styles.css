@@ -1,0 +1,426 @@
+.community-main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.community-hero {
+  background-color: #f3f4f6;
+  padding: 80px 0;
+  width: 1440px;
+}
+
+.community-hero-content {
+  width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.community-title {
+  font-family: Outfit, var(--default-font-family);
+  font-size: 48px;
+  font-weight: 400;
+  color: #1f2937;
+  margin-bottom: 16px;
+}
+
+.community-subtitle {
+  font-family: Outfit, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  color: #4b5563;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.community-container {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.community-intro {
+  padding: 80px 0;
+  width: 1440px;
+}
+
+.intro-content {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
+.intro-text {
+  flex: 1;
+}
+
+.intro-title {
+  font-family: Outfit, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  color: #000000;
+  margin-bottom: 24px;
+}
+
+.intro-paragraph {
+  font-family: Outfit, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  color: #4b5563;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.intro-image {
+  width: 480px;
+  height: 320px;
+  background-color: #e5e7eb;
+  border-radius: 12px;
+  background-image: url("https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-27/community-image.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.community-groups {
+  padding: 80px 0;
+  width: 1440px;
+  background-color: #f3f4f6;
+}
+
+.groups-title {
+  font-family: Outfit, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.groups-description {
+  font-family: Outfit, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  color: #4b5563;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 48px;
+}
+
+.groups-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.group-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 32px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.group-icon-container {
+  width: 48px;
+  height: 48px;
+  background: #7275cc;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.group-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.adhd-icon {
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-27/C33VeiQQBp.png)
+    no-repeat center;
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+}
+
+.autism-icon {
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-27/Kq6PAyV1jF.png)
+    no-repeat center;
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+}
+
+.parents-icon {
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-27/aWDVNQPKtJ.png)
+    no-repeat center;
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+}
+
+.workplace-icon {
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-27/QnDfTXD7bc.png)
+    no-repeat center;
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+}
+
+.group-title {
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+  margin-bottom: 12px;
+}
+
+.group-description {
+  font-family: Outfit, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  color: #4b5563;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.group-stats {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-number {
+  font-family: Outfit, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.stat-label {
+  font-family: Outfit, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  color: #6b7280;
+}
+
+.group-join {
+  display: inline-block;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  color: #4f46e5;
+  text-decoration: none;
+}
+
+.groups-more {
+  text-align: center;
+  margin-top: 32px;
+}
+
+.more-link {
+  font-family: Outfit, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  color: #4f46e5;
+  text-decoration: none;
+}
+
+.community-events {
+  padding: 80px 0;
+  width: 1440px;
+}
+
+.events-title {
+  font-family: Outfit, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.events-description {
+  font-family: Outfit, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  color: #4b5563;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 48px;
+}
+
+.events-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.event-card {
+  display: flex;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.event-date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background: #f3f4f6;
+  border-radius: 8px;
+  margin-right: 24px;
+}
+
+.date-number {
+  font-family: Outfit, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.date-month {
+  font-family: Outfit, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  color: #6b7280;
+}
+
+.event-details {
+  flex: 1;
+}
+
+.event-title {
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.event-time {
+  font-family: Outfit, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  color: #6b7280;
+  margin-bottom: 12px;
+}
+
+.event-description {
+  font-family: Outfit, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  color: #4b5563;
+  line-height: 1.5;
+}
+
+.event-rsvp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 36px;
+  background: #4f46e5;
+  border-radius: 6px;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 24px;
+  align-self: center;
+}
+
+.events-calendar {
+  text-align: center;
+  margin-top: 32px;
+}
+
+.calendar-link {
+  font-family: Outfit, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  color: #4f46e5;
+  text-decoration: none;
+}
+
+.community-join {
+  padding: 80px 0;
+  width: 1440px;
+  background-color: #f3f4f6;
+}
+
+.join-content {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.join-title {
+  font-family: Outfit, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+.join-description {
+  font-family: Outfit, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  color: #4b5563;
+  margin-bottom: 32px;
+}
+
+.join-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.join-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  padding: 0 24px;
+  border-radius: 8px;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.join-button.primary {
+  background: #4f46e5;
+  color: #ffffff;
+}
+
+.join-button.secondary {
+  background: transparent;
+  border: 2px solid #4f46e5;
+  color: #4f46e5;
+}
+
+.join-note {
+  font-family: Outfit, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  color: #6b7280;
+}
+
+.login-link {
+  color: #4f46e5;
+  text-decoration: none;
+}

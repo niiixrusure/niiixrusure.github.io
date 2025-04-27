@@ -1,0 +1,76 @@
+.footer {
+  position: relative;
+  width: 100%;
+  height: 216px;
+  margin: 0 0 0 0;
+  background: #e5e7eb;
+  z-index: 117;
+  overflow: visible auto;
+}
+
+.div-4e {
+  position: relative;
+  width: 1280px;
+  height: 88px;
+  margin: 48px 0 0 80px;
+  background: rgba(0, 0, 0, 0);
+  z-index: 118;
+  overflow: visible auto;
+}
+
+.div-4f {
+  position: relative;
+  width: 1248px;
+  height: 88px;
+  margin: 0 0 0 16px;
+  background: rgba(0, 0, 0, 0);
+  z-index: 119;
+  overflow: visible auto;
+}
+
+.div-50 {
+  position: relative;
+  width: 288px;
+  height: 88px;
+  margin: 0 0 0 0;
+  background: rgba(0, 0, 0, 0);
+  z-index: 120;
+  overflow: visible auto;
+}
+
+.div-51 {
+  position: relative;
+  width: 288px;
+  height: 32px;
+  margin: 0 0 0 0;
+  background: rgba(0, 0, 0, 0);
+  z-index: 121;
+  overflow: visible auto;
+}
+
+.intun-52 {
+  position: relative;
+  width: 60.269px;
+  height: 32px;
+  margin: 0 0 0 0;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-27/mz8HXKtdzj.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 122;
+}
+
+.neurodivergent-celebration {
+  display: block;
+  position: relative;
+  width: 100% !important;
+  height: 18px;
+  margin: 21px 0 0 0;
+  color: #4b5563;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 123;
+}
